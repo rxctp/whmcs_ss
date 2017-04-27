@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# Announcements
+RewriteRule ^announcements/([0-9]+)/[a-z0-9_-]+\.html$ ./announcements.php?id=$1 [L,NC]
+RewriteRule ^announcements$ ./announcements.php [L,NC]
+
+# Downloads
+RewriteRule ^downloads/([0-9]+)/([^/]*)$ ./downloads.php?action=displaycat&catid=$1 [L,NC]
+RewriteRule ^downloads$ ./downloads.php [L,NC]
+
+# Knowledgebase
+RewriteRule ^knowledgebase/([0-9]+)/[a-z0-9_-]+\.html$ ./knowledgebase.php?action=displayarticle&id=$1 [L,NC]
+RewriteRule ^knowledgebase/([0-9]+)/([^/]*)$ ./knowledgebase.php?action=displaycat&catid=$1 [L,NC]
+RewriteRule ^knowledgebase$ ./knowledgebase.php [L,NC]
+
+# OpenID Discovery Document (http://openid.net/specs/openid-connect-discovery-1_0.html)
+RewriteRule ^.well-known/openid-configuration ./oauth/openid-configuration.php [L,NC]
