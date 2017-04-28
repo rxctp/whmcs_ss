@@ -5,7 +5,7 @@ WHMCS - The Complete Client Management, Billing & Support Solution
 Release Version: 7.1.0 (7.1.0-release.1)
 Release Type: Production Release
 Distro Type: Full Version
-Release Date: 14 Dec 2016
+Release Date: 14 Dec 201 6
 
 PLEASE READ ALL THE ENCLOSED INSTRUCTIONS
 
