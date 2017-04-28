@@ -1,7 +1,4 @@
-<?php //00ee8
-
-// *************************************************************************
-//  1*                                                                       *
+<?php
 // * WHMCS - The Complete Client Management, Billing & Support Solution    *
 // * Copyright (c) WHMCS Ltd. All Rights Reserved,                         *
 // * Version: 7.1.0 (7.1.0-release.1)                                      *
