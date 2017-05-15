@@ -1,0 +1,49 @@
+/* font */
+.plugin .row-main .card {
+    margin-bottom: 20px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #dcdfe3;
+    box-shadow: 0 0 3px #dcdfe3;
+}
+.plugin .row-main .card h4 {
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.plugin .row-main .card h4 i.fa {
+    margin-right: 10px;
+}
+.plugin .row-main .card .content {
+    padding: 10px;
+}
+.plugin .row-main .card .table {
+    margin-bottom: 0;
+}
+.plugin .row-main .card ul,
+.plugin .row-main .card ol {
+    padding-left: 15px;
+}
+.plugin .row-main .card a.passwd {
+    display: inline-block;
+    padding: 0 5px;
+    color: #999;
+    background-color: #999;
+    cursor: default;
+}
+.plugin .row-main .card a.passwd:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.plugin .badge-primary {
+    background-color: #1fb5ad;
+    color: #FFFFFF;
+}
+.plugin .badge-danger {
+    background-color: #F24A4A;
+    color: #FFFFFF;
+}
+.plugin .ping-result {
+    cursor: context-menu;
+    user-select: none;
+}

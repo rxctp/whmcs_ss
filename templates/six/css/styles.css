@@ -80,6 +80,14 @@ div.header-lined h1 {
     color: #058;
 }
 
+div.header-lined h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+}
+
 div.header-lined .breadcrumb {
     margin-top: -15px;
     font-size: 0.7em;
