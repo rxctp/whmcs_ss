@@ -49,7 +49,9 @@
 
         </div>
 
-          {include file="orderforms/standard_cart/sidebar-categories-collapsed.tpl"}
+        <div class="col-md-9 pull-md-right">
+
+            {include file="orderforms/standard_cart/sidebar-categories-collapsed.tpl"}
 
             <div class="already-registered clearfix">
                 <div class="pull-right">
