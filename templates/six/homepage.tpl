@@ -16,6 +16,7 @@
         {if $announcement@index < 2}
             <div class="announcement-single">
                 <h3>
+                    2233333
                     <span class="label label-default">
                         {$announcement.rawDate|date_format:"M jS"}
                     </span>
