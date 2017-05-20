@@ -10,7 +10,7 @@
 </section>
 
 <section id="footer">
-    <p>Copyright &copy; {$date_year} {$companyname}. All Rights Reserved.</p>
+    <p>Copyright &copy; {$date_year} {$companyname}. All Rights Reserved</p>
 </section>
 
 <div class="modal system-modal fade" id="modalAjax" tabindex="-1" role="dialog" aria-hidden="true">
