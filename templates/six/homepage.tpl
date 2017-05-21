@@ -50,8 +50,8 @@
                             <li><a href="/">购买</a></li>
                             <li><a href="/">帮助</a></li>
                             <li><a href="/">关于</a></li>
-                            <li class="signin"><a href="/" data-toggle="modal" data-target="#log_part">我的帐号</a></li>
-                            <li class="signin"><a href="/">退出登录</a></li>
+                            <li class="signin"><a href="/clientarea.php" data-toggle="modal" data-target="#log_part">登录</a></li>
+                            <li class="signin"><a href="/register.php">注册</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,9 +62,9 @@
                         <li><a href="/">购买</a></li>
                         <li><a href="/">帮助</a></li>
                         <li><a href="/">关于</a></li>
-                        <li class="signin"><a href="/">我的帐号</a></li>
+                        <li class="signin"><a href="/clientarea.php">登录</a></li>
                         <li class="sign-out">
-                            <input type="button" name="Submit" value="退出登录">
+                           <a href="/register.php">注册</a>
                         </li>
                     </ul>
                 </div>
