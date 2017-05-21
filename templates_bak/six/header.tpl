@@ -4,9 +4,7 @@
     <meta charset="{$charset}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="请认准正版官网，谨防上当】Green是一款绿色、稳定、好用的网络优化软件，为专业人士、海外商务提供可靠加速服务，通过加密协议保护网络数据，有效加固个人隐私" />
-    <title>Green唯一官网</title>
-    <!-- <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title> -->
+    <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title>
 
     {include file="$template/includes/head.tpl"}
 
@@ -21,39 +19,81 @@
     <div class="container">
 
         <!-- Top Bar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a href="/" class="navbar-brand"><img src="./img/brand.png" alt="Green" width="90"></a> <span class="navbar-summary">快速、稳定的网络优化服务</span>
-                        <a class="app-dl" target="_blank" href="/">下载客户端</a>
-                        <button data-toggle="collapse" data-target=".mobile-nav" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                    </div>
-                    <div role="navigation" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/">首页</a></li>
-                            <li><a href="/">下载</a></li>
-                            <li><a href="/">购买</a></li>
-                            <li><a href="/">帮助</a></li>
-                            <li><a href="/">关于</a></li>
-                            <li class="signin"><a href="/" data-toggle="modal" data-target="#log_part">我的帐号</a></li>
-                            <li class="signin"><a href="/">退出登录</a></li>
+        <div id="top-nav">
+            <!-- Language -->
+            {if $languagechangeenabled && count($locales) > 1}
+                <div class="pull-right nav">
+                    <a href="#" class="quick-nav" data-toggle="popover" id="languageChooser"><i class="fa fa-language"></i> {$LANG.chooselanguage} <span class="caret"></span></a>
+                    <div id="languageChooserContent" class="hidden">
+                        <ul>
+                            {foreach from=$locales item=locale}
+                                <li><a href="{$currentpagelinkback}language={$locale.language}">{$locale.localisedName}</a></li>
+                            {/foreach}
                         </ul>
                     </div>
                 </div>
-                <div class="mobile-nav collapse">
-                    <ul>
-                        <li><a href="/">首页</a></li>
-                        <li><a href="/">下载</a></li>
-                        <li><a href="/">购买</a></li>
-                        <li><a href="/">帮助</a></li>
-                        <li><a href="/">关于</a></li>
-                        <li class="signin"><a href="/">我的帐号</a></li>
-                        <li class="sign-out">
-                            <input type="button" name="Submit" value="退出登录">
-                        </li>
-                    </ul>
+            {/if}
+            <!-- Login/Account Notifications -->
+            {if $loggedin}
+                <div class="pull-right nav">
+                    <a href="#" class="quick-nav" data-toggle="popover" id="accountNotifications" data-placement="bottom" title="{lang key="notifications"}"><i class="fa fa-info"></i> {$LANG.notifications} ({$clientAlerts|count})</a>
+                    <div id="accountNotificationsContent" class="hidden">
+                        {foreach $clientAlerts as $alert}
+                            <div class="clientalert text-{$alert->getSeverity()}">{$alert->getMessage()}{if $alert->getLinkText()} <a href="{$alert->getLink()}" class="btn btn-xs btn-{$alert->getSeverity()}">{$alert->getLinkText()}</a>{/if}</div>
+                        {foreachelse}
+                            <div class="clientalert text-success"><i class="fa fa-check-square-o"></i> {$LANG.notificationsnone}</div>
+                        {/foreach}
+                    </div>
                 </div>
-            </nav>
+            {else}
+                <div class="pull-right nav">
+                    <a href="#" class="quick-nav" data-toggle="popover" id="loginOrRegister" data-placement="bottom"><i class="fa fa-user"></i> {$LANG.login}</a>
+                    <div id="loginOrRegisterContent" class="hidden">
+                        <form action="{if $systemsslurl}{$systemsslurl}{else}{$systemurl}{/if}dologin.php" method="post" role="form">
+                            <div class="form-group">
+                                <input type="email" name="username" class="form-control" placeholder="{$LANG.clientareaemail}" required />
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" name="password" class="form-control" placeholder="{$LANG.loginpassword}" autocomplete="off" required />
+                                    <span class="input-group-btn">
+                                        <input type="submit" class="btn btn-primary" value="{$LANG.login}" />
+                                    </span>
+                                </div>
+                            </div>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" name="rememberme" /> {$LANG.loginrememberme} &bull; <a href="{$WEB_ROOT}/pwreset.php">{$LANG.forgotpw}</a>
+                            </label>
+                        </form>
+                        {if $condlinks.allowClientRegistration}
+                            <hr />
+                            {$LANG.newcustomersignup|sprintf2:"<a href=\"$WEB_ROOT/register.php\">":"</a>"}
+                        {/if}
+                    </div>
+                </div>
+            {/if}
+            <!-- Shopping Cart -->
+            <div class="pull-right nav">
+                <a href="{$WEB_ROOT}/cart.php?a=view" class="quick-nav"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">{$LANG.viewcart} (</span><span id="cartItemCount">{$cartitemcount}</span><span class="hidden-xs">)</span></a>
+            </div>
+
+            {if $adminMasqueradingAsClient}
+                <!-- Return to admin link -->
+                <div class="alert alert-danger admin-masquerade-notice">
+                    {$LANG.adminmasqueradingasclient}<br />
+                    <a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="alert-link">{$LANG.logoutandreturntoadminarea}</a>
+                </div>
+            {elseif $adminLoggedIn}
+                <!-- Return to admin link -->
+                <div class="alert alert-danger admin-masquerade-notice">
+                    {$LANG.adminloggedin}<br />
+                    <a href="{$WEB_ROOT}/logout.php?returntoadmin=1" class="alert-link">{$LANG.returntoadminarea}</a>
+                </div>
+            {/if}
+
+        </div>
+
+        <a href="{$WEB_ROOT}/index.php"><img src="{$WEB_ROOT}/templates/{$template}/img/logo.png" alt="{$companyname}" /></a>
 
     </div>
 </section>

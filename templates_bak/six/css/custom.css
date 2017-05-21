@@ -1,0 +1,300 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+
+/* bootstrap reset */
+a,
+a:hover {
+  color: #05c1dc;
+}
+a:focus {
+  outline: none;
+}
+.breadcrumb {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+.alert,
+.panel,
+.btn,
+.breadcrumb {
+  border-radius: 0;
+}
+.alert {
+  box-shadow: none;
+  font-size: 12px;
+  padding: .6em 1em;
+}
+.alert .glyphicon,
+.alert .fa {
+  margin-right: .5em;
+  font-size: 1.2em;
+  vertical-align: top;
+}
+.alert-info {
+  background: #f1f6fa;
+  border: 1px solid #e2eced;
+}
+.panel-default > .panel-heading {
+  font-size: 16px;
+  background: none;
+  border-radius: 0;
+  border-top: 2px solid #04a2c8;
+  margin-top: -1px;
+  border-bottom: none;
+  text-align: center;
+}
+.panel-default > .panel-heading .glyphicon,
+.panel-default > .panel-heading .fa {
+  font-size: 1.2em;
+  margin-right: .5em;
+}
+.panel-body {
+  padding: 30px;
+}
+.panel-body h2 {
+  color: #333;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+}
+.table-outbordered {
+  border: 1px solid #ddd;
+}
+.btn {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:active {
+  background: none;
+  text-shadow: none;
+  box-shadow: none;
+}
+.btn-primary {
+  border-color: #56b5fa;
+  background-color: #56b5fa;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  border-color: #56b5fa;
+  background-color: #50b2f9;
+}
+.btn-reverse.primary {
+  color: #66bafc;
+  border-color: #66bafc;
+}
+.btn-reverse.primary:hover {
+  color: #fff;
+  border-color: #66bafc;
+  background: #54b2fc;  
+}
+
+
+body {
+  font-size: 14px;
+  color: #666;
+  background-color: #f9f9f9;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+header .navbar-default {
+  box-shadow: none;
+  border-radius: 0;
+  background: #24282c;
+  border: none;
+  border-bottom: 1px solid #45484b;
+  margin-bottom: 0;
+}
+header .navbar-brand {
+  width: 190px;
+  padding: 12px 0;
+  text-align: center;
+}
+header .navbar-brand img {
+  display: inline-block;
+  height: 26px;
+  vertical-align: middle;
+}
+header .nav > li > a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header .navbar-default .navbar-nav > li > a,
+header .navbar-default .navbar-nav > li > a:focus,
+header .navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+}
+header .navbar-default .navbar-nav > li > a {
+  text-shadow: none;  
+}
+header .navbar-default .navbar-nav > .active > a,
+header .navbar-default .navbar-nav > .open > a,
+header .navbar-default .navbar-nav > .active > a,
+header .navbar-default .navbar-nav > .active > a:focus,
+header .navbar-default .navbar-nav > .active > a:hover {
+  background: #03a1e8;
+  color: #fff;
+}
+header .navbar-default .navbar-nav > .open > a,
+header .navbar-default .navbar-nav > .open > a:focus,
+header .navbar-default .navbar-nav > .open > a:hover {
+  background: #fff;
+  color: #333;
+}
+header .nav.navbar-right > li > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: .9em;
+}
+footer {
+  padding: 10px;
+  margin-top: 20px;
+  color: #9b9ea0;
+  font-size: 12px;
+  background-color: #373e41;
+  overflow: hidden;
+}
+footer a,
+footer a:hover {
+  color: #9b9ea0;
+}
+footer .quick-links dl {
+  padding: 20px;
+  margin: 0;
+}
+footer .quick-links dl dt {
+  font-size: 14px;
+  color: #d7d8d9;
+  font-weight: normal;
+  line-height: 30px;
+}
+footer .quick-links dl dd {
+  line-height: 24px;
+}
+footer .copyright {
+  border-top: 1px solid #4c5154;
+  text-align: center;
+  line-height: 40px;
+}
+.wrap {
+  margin: 0 20px;
+}
+
+/* system */
+input, button, select, textarea {
+  font-family: inherit;  
+}
+.badge {
+  font-weight: normal;
+  background-color: #cacaca;
+}
+.panel > .list-group:last-child .list-group-item:last-child, .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child,
+.dataTables_wrapper,
+.dataTables_wrapper .dataTables_info {
+  border-radius: 0;
+}
+.list-group {
+  font-size: 1em;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  border: none;
+}
+.dataTables_wrapper {
+  background-color: transparent;
+}
+.dataTables_wrapper .dataTables_info,
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+  color: #333;
+  background-color: #f5f6fa;
+}
+.dataTables_wrapper .dataTables_info {
+  font-size: 1em;
+}
+table.table-list thead th {
+  background-color: #efefef;
+}
+.table-list > tbody > tr:hover > td {
+  background-color: #fdfdfd;
+}
+.main-content {
+  min-height: 350px;
+  margin-bottom: 0;
+}
+.panel.panel-accent-gold,
+.panel.panel-accent-asbestos,
+.panel.panel-accent-blue {
+  border-top: none;
+}
+.client-home-panels .panel.panel-accent-gold > .panel-heading {
+  border-top-color: #f0ad4e;
+}
+.client-home-panels  .panel.panel-accent-asbestos > .panel-heading {
+  border-top-color: #7f8c8d;
+}
+.client-home-panels .panel.panel-accent-blue > .panel-heading {
+  border-top-color: #5bc0de;
+}
+section#home-banner {
+  padding-top: 150px;
+  padding-bottom: 160px;
+}
+.home-shortcuts {
+  margin-bottom: -20px;
+}
+.main-body-homepage {
+  display: none;
+}
+.page-title {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.page-title h2 {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.home-quick-titles {
+  margin-bottom: 20px;
+}
+.home-quick-titles a {
+  display: block;
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+}
+.home-quick-titles a:hover {
+  border-color: #05a3c8;
+  text-decoration: none;
+}
+.home-quick-titles a .icon {
+  color: #999;
+  font-size: 40px;
+}
+.home-quick-titles a .stat {
+  font-size: 24px;
+}
+.announcement-details {
+  min-height: 350px;
+}
+.submit-ticket-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* 管理员登录时客户端顶部提醒 */
+.admin-logined-warning {
+  text-align: center;
+  margin-bottom: 0;
+}
