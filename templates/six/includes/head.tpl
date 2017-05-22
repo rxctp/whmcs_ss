@@ -9,11 +9,6 @@
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,700" rel="stylesheet">
 <link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css?v={$versionHash}" rel="stylesheet">
 <link href="{$WEB_ROOT}/templates/{$template}/css/custom.css" rel="stylesheet">
-<link href="{$WEB_ROOT}/templates/{$template}/css/green/global.css" rel="stylesheet">
-<link href="{$WEB_ROOT}/templates/{$template}/css/green/outer.css" rel="stylesheet">
-<link href="{$WEB_ROOT}/templates/{$template}/css/green/index.css" rel="stylesheet">
-<link href="{$WEB_ROOT}/templates/{$template}/css/green/app.css" rel="stylesheet">
-
 
 
 <!-- font-awesome -->
