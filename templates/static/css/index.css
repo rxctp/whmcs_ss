@@ -124,7 +124,7 @@ header .navbar-collapse:after {
 /*detail*/
 
 .detail {
-    padding: 80px;
+    padding: 80px 0;
 }
 
 .detail .card {
