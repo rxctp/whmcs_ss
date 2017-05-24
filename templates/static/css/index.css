@@ -1,5 +1,14 @@
+body {
+        font-family: Raleway, Verdana, Tahoma, sans-serif;
+}
 header {
     background: linear-gradient(to right, #1c99cf 0%, #5bbee2 100%);
+}
+.btn.btn-successful {
+    font-size: 14px;
+}
+.btn.btn-successful:hover {
+    color: #fff;
 }
 
 header .navbar-brand {
@@ -20,14 +29,20 @@ header .navbar-right > li {
 }
 
 header .navbar-right > li > a {
-    color: #C0E4F1;
+    color: #eee;
     padding-top: 4px;
     border-radius: 4px;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 14px;
     text-transform: capitalize;
     border: 1px solid transparent;
+}
+header .navbar-right > li > a:hover,
+header .navbar-right > li.active > a {
+    background-color: transparent;
+    color: #fff;
 }
 
 header .navbar-collapse:after {
@@ -243,4 +258,18 @@ footer h4 {
 
 .tos {
     padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .i-index .i-content {
+    text-align: center;
+    background-image: none;
+  }
+  .i-index .i-content .btn.btn-successful {
+    width: 90%;
+  }
+  .intro .container {
+    text-align: center;
+    background-image: none;
+  }
 }

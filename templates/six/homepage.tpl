@@ -41,7 +41,7 @@
 <section class="intro">
   <div class="container">
       <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6">
               <h2>简单有效</h2>
               <p>精选千兆的带宽和最顶尖的服务器硬件。我们建立的是一个快到您都无法感知的服务,在任何设备上,只需要简单的设置即可连接。</p>
           </div>

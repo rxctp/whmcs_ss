@@ -25,21 +25,24 @@
       </div>
       <nav class="navbar-collapse collapse" id="bs-navbar">
           <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="" class="active">客户端</a>
-              </li>
-              <li>
-                <a href="">使用教程</a>
-              </li>
-              <li>
-                <a href="">服务条款</a>
-              </li>
-              <li>
-                <a href="">登录</a>
-              </li>
-              <li>
-                <a href="" class="btn btn-outline btn-border">注册</a>
-              </li>
+            <li class="active">
+              <a href="/">首页</a>
+            </li>
+            <li>
+              <a href="">客户端</a>
+            </li>
+            <li>
+              <a href="">使用教程</a>
+            </li>
+            <li>
+              <a href="">服务条款</a>
+            </li>
+            <li>
+              <a href="">登录</a>
+            </li>
+            <li>
+              <a href="" class="btn btn-outline btn-border">注册</a>
+            </li>
           </ul>
       </nav>
   </div>
