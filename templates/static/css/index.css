@@ -1,0 +1,246 @@
+header {
+    background: linear-gradient(to right, #1c99cf 0%, #5bbee2 100%);
+}
+
+header .navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    color: #fff;
+    height: auto;
+    font-size: 26px;
+}
+
+header .navbar-nav {
+    padding: 20px 0;
+}
+
+header .navbar-right > li {
+    margin-left: 5px;
+}
+
+header .navbar-right > li > a {
+    color: #C0E4F1;
+    padding-top: 4px;
+    border-radius: 4px;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+}
+
+header .navbar-collapse:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, RGBA(143, 211, 234, .15) 0%, RGBA(103, 192, 226, 1.00) 20%, RGBA(103, 192, 226, 1.00) 50%, RGBA(103, 192, 226, 1.00) 80%, RGBA(143, 211, 234, .15) 100%);
+}
+
+.i-index {
+    padding: 90px 0;
+    background: linear-gradient(to right, #1c99cf 0%, #5bbee2 100%);
+    color: #fff;
+}
+
+.i-index .i-content {
+    padding: 30px 0;
+    color: #fff;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url(../img/slider-bg.png);
+}
+
+.i-index .i-content h2 {
+    margin-bottom: 35px;
+}
+
+.i-index .i-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+
+/*lists*/
+
+.lists {
+    padding: 80px 0;
+}
+
+.lists .card {
+    padding: 30px;
+    min-height: 310px;
+}
+
+.lists .row {
+    border-bottom: 1px solid #F1F1F1;
+}
+
+
+/*intro*/
+
+.intro {
+    padding: 40px 0;
+    background-color: #14A7DB;
+}
+
+.intro h2 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.intro .container {
+    background-image: url('../img/slider-1.png');
+    background-size: 50%;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+
+/*detail*/
+
+.detail {
+    padding: 80px;
+}
+
+.detail .card {
+    min-height: 125px;
+}
+
+.detail .card h2 {
+    color: #32607A;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.detail .card p {
+    color: #9BB1BE;
+    letter-spacing: 1px;
+}
+
+.poster {
+    padding: 80px 0;
+    background: #1c99cf;
+    background: -moz-linear-gradient(left, #1c99cf 0%, #5bbee2 100%);
+    background: -webkit-linear-gradient(left, #1c99cf 0%, #5bbee2 100%);
+    background: linear-gradient(to right, #1c99cf 0%, #5bbee2 100%);
+    position: relative;
+    box-shadow: inset 0px 2px 7px -2px rgba(0, 0, 0, .35);
+}
+
+.poster .container {
+    background-image: url('../img/slider-2.png');
+    background-size: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin-bottom: -80px;
+    padding-bottom: 120px;
+}
+
+.poster h2 {
+    margin-bottom: 26px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+
+/*footer*/
+
+footer {
+    padding: 80px 0;
+}
+
+footer h4 {
+    color: #32607A;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+/*help 页中部分*/
+
+.client {
+    padding-top: 20px;
+}
+
+.client .c-ul {
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.client .c-ul li {
+    display: inline;
+    padding: 0 0 0 60px;
+}
+
+.client .c-ul li a {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    border: 0px solid rgb(204, 204, 204);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.client .card {
+    padding: 30px;
+    min-height: 310px;
+}
+
+.client .card img {
+    width: 120px;
+    height: 120px;
+    margin: 10px auto 30px;
+    background-size: 100%;
+}
+
+.client .card h4 {
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.client .card a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.p-80 > div {
+    border: 1px solid #F1F1F1;
+}
+
+.p-80 > div:nth-child(3n + 1) {
+    border-left: none;
+}
+
+.p-80 > div:nth-child(3n + 3) {
+    border-right: none;
+}
+
+.p-80 > div:nth-child(-n + 3) {
+    border-top: none;
+}
+
+.p-80 > div:nth-child(n + 7) {
+    border-bottom: none;
+}
+
+
+/*tos*/
+
+.tos {
+    padding: 20px 0;
+}

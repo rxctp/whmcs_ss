@@ -1,55 +1,84 @@
-{if $twitterusername}
-
-    <h2>{$LANG.twitterlatesttweets}</h2>
-
-    <div id="twitterFeedOutput">
-        <p class="text-center"><img src="{$BASE_PATH_IMG}/loading.gif" /></p>
-    </div>
-
-    <script type="text/javascript" src="templates/{$template}/js/twitter.js"></script>
-
-{elseif $announcements}
-
-    <h2>{$LANG.news}</h2>
-
-    {foreach $announcements as $announcement}
-        {if $announcement@index < 2}
-            <div class="announcement-single">
-                <h3>
-                    2233333
-                    <span class="label label-default">
-                        {$announcement.rawDate|date_format:"M jS"}
-                    </span>
-                    <a href="{if $seofriendlyurls}{$WEB_ROOT}/announcements/{$announcement.id}/{$announcement.urlfriendlytitle}.html{else}announcements.php?id={$announcement.id}{/if}">{$announcement.title}</a>
-                </h3>
-
-                <blockquote>
-                    <p>
-                        {if $announcement.text|strip_tags|strlen < 350}
-                            {$announcement.text}
-                        {else}
-                            {$announcement.summary}
-                            <a href="{if $seofriendlyurls}{$WEB_ROOT}/announcements/{$announcement.id}/{$announcement.urlfriendlytitle}.html{else}announcements.php?id={$announcement.id}{/if}" class="label label-warning">{$LANG.readmore} &raquo;</a>
-                        {/if}
-                    </p>
-                </blockquote>
-
-                {if $announcementsFbRecommend}
-                    <script>
-                        (function(d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0];
-                            if (d.getElementById(id)) {
-                                return;
-                            }
-                            js = d.createElement(s); js.id = id;
-                            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }(document, 'script', 'facebook-jssdk'));
-                    </script>
-                    <div class="fb-like hidden-sm hidden-xs" data-layout="standard" data-href="{$systemurl}{if $seofriendlyurls}{$WEB_ROOT}/announcements/{$announcement.id}/{$announcement.urlfriendlytitle}.html{else}announcements.php?id={$announcement.id}{/if}" data-send="true" data-width="450" data-show-faces="true" data-action="recommend"></div>
-                    <div class="fb-like hidden-lg hidden-md" data-layout="button_count" data-href="{$systemurl}{if $seofriendlyurls}{$WEB_ROOT}/announcements/{$announcement.id}/{$announcement.urlfriendlytitle}.html{else}announcements.php?id={$announcement.id}{/if}" data-send="true" data-width="450" data-show-faces="true" data-action="recommend"></div>
-                {/if}
-            </div>
-        {/if}
-    {/foreach}
-{/if}
+<!-- lists -->
+<section class="lists">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3 col-sm-6 text-center">
+              <div class="card">
+                  <img src="img/icon-loadbalancers.svg" alt="">
+                  <h3>优质线路</h3>
+                  <p>精选全球CN2线路</p>
+                  <a href="">查看详情 <i class="fa fa-caret-right"></i></a>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 text-center">
+              <div class="card">
+                  <img src="img/icon-volumes.svg" alt="">
+                  <h3>多平台支持</h3>
+                  <p>几乎支持所有平台</p>
+                  <a href="">查看详情 <i class="fa fa-caret-right"></i></a>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 text-center">
+              <div class="card">
+                  <img src="img/icon-firewall.svg" alt="">
+                  <h3>自动开通</h3>
+                  <p>付款后立即自动开通</p>
+                  <a href="">查看详情 <i class="fa fa-caret-right"></i></a>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 text-center">
+              <div class="card">
+                  <img src="img/drive.svg" alt="">
+                  <h3>自动开通</h3>
+                  <p>7*24小时解决售后问题</p>
+                  <a href="">查看详情 <i class="fa fa-caret-right"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- intro -->
+<section class="intro">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <h2>简单有效</h2>
+              <p>精选千兆的带宽和最顶尖的服务器硬件。我们建立的是一个快到您都无法感知的服务,在任何设备上,只需要简单的设置即可连接。</p>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- detail -->
+<section class="detail">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6">
+              <div class="card">
+                  <h2>支持的客户端</h2>
+                  <p>OS X, Windows, Linux, iOS, Android, OpenWRT 路由器等.</p>
+              </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="card">
+                  <h2>服务端</h2>
+                  <p>Python, nodejs, golang, C libev, C libuv, erlang, dotcloud 等.</p>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-6">
+              <div class="card">
+                  <h2>加密方式</h2>
+                  <p>推荐使用 AES-256-CFB 或 RC4-MD5.</p>
+              </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="card">
+                  <h2>声明</h2>
+                  <p>本站与开源项目 Shadowsocks 及其开发者无任何关系， 开源项目请前往 Github 查看更多信息.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- poster -->

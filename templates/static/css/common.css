@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway, Verdana, Tahoma, sans-serif;
+}
+
+.btn-successful {
+    color: #FAFEFC;
+    font-size: 12px;
+    padding: 12px 30px;
+    border-color: #1FE09D;
+    background-color: #1FE09D;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .01);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .1);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn-outline {
+    color: #FFF !important;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.btn-border {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    border-color: #C0E4F1 !important;
+    background-color: transparent;
+}
+
+.p-80 {
+    padding: 80px 0;
+}
+
+.navbar-toggle {
+	border: 1px solid #fff;
+}
+
+.icon-bar {
+	background: #fff;
+}

@@ -1,19 +1,20 @@
 <!-- JQuery -->
-<script type="text/javascript" src="{$WEB_ROOT}/templates/static/js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/jquery.min.js"></script>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/bootstrap.min.css">
-<script type="text/javascript" src="{$WEB_ROOT}/templates/static/js/bootstrap.min.js"></script>
-
-<!-- common -->
-<link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/common.css">
-
-<link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/index.css">
+<link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/{$template}/css/bootstrap.min.css">
+<script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/bootstrap.min.js"></script>
 
 <!-- Styling -->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,700" rel="stylesheet">
+<link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css?v={$versionHash}" rel="stylesheet">
+<link href="{$WEB_ROOT}/templates/{$template}/css/custom.css" rel="stylesheet">
 
 
 <!-- font-awesome -->
+<link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/{$template}/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/{$template}/css/styles.css">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +23,7 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     var csrfToken = '{$token}',
         markdownGuide = '{lang key="markdown.title"}',
         locale = '{if !empty($mdeLocale)}{$mdeLocale}{else}en{/if}',
@@ -33,4 +34,4 @@
 
 {if $templatefile == "viewticket" && !$loggedin}
   <meta name="robots" content="noindex" />
-{/if} -->
+{/if}
