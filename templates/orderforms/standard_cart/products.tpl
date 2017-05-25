@@ -203,17 +203,19 @@
           <div class="order-price text-center">
               <!-- <p>起价 <br><span class="order-price-sp">￥89.00CNY</span><br> 年付</p> -->
               <p>
+                起价
+                <br>
                 {if $product.bid}
                     {$LANG.bundledeal}<br />
                     {if $product.displayprice}
-                        <span class="price">{$product.displayprice}</span>
+                        <span class="order-price-sp">{$product.displayprice}</span>
                     {/if}
                 {else}
                     {if $product.pricing.hasconfigoptions}
                         {$LANG.startingfrom}
                         <br />
                     {/if}
-                    <span class="price">{$product.pricing.minprice.price}</span>
+                    <span class="order-price-sp">{$product.pricing.minprice.price}</span>
                     <br />
                     {if $product.pricing.minprice.cycle eq "monthly"}
                         {$LANG.orderpaymenttermmonthly}
@@ -230,7 +232,7 @@
                     {/if}
                     <br>
                     {if $product.pricing.minprice.setupFee}
-                        <small>{$product.pricing.minprice.setupFee->toPrefixed()} {$LANG.ordersetupfee}</small>
+                        <p>{$product.pricing.minprice.setupFee->toPrefixed()} {$LANG.ordersetupfee}</p>
                     {/if}
                 {/if}
               </p>
