@@ -8,7 +8,7 @@
 <!-- common -->
 <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/common.css">
 
-
+<link rel="shortcut icon" href="favicon.png">
 <!-- Styling -->
 
 
