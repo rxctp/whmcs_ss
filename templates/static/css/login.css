@@ -1,0 +1,89 @@
+body {
+    background-color: #212530;
+}
+
+.container {
+    width: 100%;
+    margin: 110px 0;
+    padding: 20px 10px 0;
+}
+
+article {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.content-title {
+    text-align: center;
+    line-height: 42px;
+    color: #FFF;
+    float: none;
+    height: auto;
+    display: block;
+    padding: 5px 0;
+    margin-bottom: 40px;
+    font-size: 34px;
+    text-decoration: none;
+    font-family: Raleway, Verdana, Tahoma, sans-serif;
+}
+
+.content {
+    position: relative;
+    padding: 30px 30px 0 30px;
+    border-radius: 4px;
+    background-color: #FFF;
+}
+
+.content label {
+    color: #7f8fa4;
+    font-size: 14px;
+}
+
+.content .form-control {
+    border-color: #DFE3E8;
+    box-shadow: none;
+    color: rgba(53, 64, 82, .8);
+    transition: none;
+}
+
+.content .foot {
+    padding: 20px;
+    border-top: 1px solid #E7E9EC;
+    background-color: #F8FAFC;
+    border-radius: 0 0 4px 4px;
+}
+
+.content .foot a {
+    color: #7f8ea3;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.b-content {
+    color: #FFF;
+    opacity: .5;
+    margin-top: 40px;
+}
+
+.b-content .back {
+    float: left;
+}
+
+.b-content .back a,
+.b-content .register a {
+    color: #FFF;
+    opacity: 1;
+}
+
+.b-content .register {
+    float: right;
+}
+
+.btn-success {
+    height: 36px;
+    background-color: #2FB130;
+    background-image: linear-gradient(#2FB130,#2BAF2D);
+}

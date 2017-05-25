@@ -8,7 +8,6 @@
 <!-- common -->
 <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/common.css">
 
-<link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/index.css">
 
 <!-- Styling -->
 
