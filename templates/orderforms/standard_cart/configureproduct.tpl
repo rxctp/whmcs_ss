@@ -450,7 +450,7 @@ var _localLang = {
             </div>
           </div>
           <div class="col-md-4" id="scrollingPanelContainer">
-            <div id="orderSummary">
+            <div id="orderSummary" class="order-box">
               <div class="order-summary">
                 <div class="loader" id="orderSummaryLoader">
                   <i class="fa fa-fw fa-refresh fa-spin"></i>

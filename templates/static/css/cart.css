@@ -254,3 +254,10 @@
   font-weight: 400;
   font-size: 28px;
 }
+#order-standard_cart .summary-container {
+  background-color: transparent;
+}
+.order-box {
+  padding: 20px;
+  box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.28);
+}
