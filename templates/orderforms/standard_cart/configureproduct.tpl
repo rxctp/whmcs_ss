@@ -47,8 +47,8 @@ var _localLang = {
   <div class="container">
     <div class="row i-menu text-center">
       <div class="col-sm-3">
-        <a href="">
-          <div class="card active">
+        <a href="javascript:;">
+          <div class="card">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="theme-gray size-md">
               <g>
                 <g>
@@ -76,7 +76,7 @@ var _localLang = {
         </a>
       </div>
       <div class="col-sm-3">
-        <a href="">
+        <a href="javascript:;">
           <div class="card">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="theme-gray size-md">
                 <g>
@@ -99,8 +99,8 @@ var _localLang = {
         </a>
       </div>
       <div class="col-sm-3">
-        <a href="">
-          <div class="card">
+        <a href="javascript:;">
+          <div class="card active">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="theme-gray size-md">
                 <g>
                   <g>
@@ -143,7 +143,7 @@ var _localLang = {
         </a>
       </div>
       <div class="col-sm-3">
-        <a href="">
+        <a href="javascript:;">
           <div class="card">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="theme-gray size-md">
               <g>
