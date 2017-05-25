@@ -40,7 +40,9 @@ header .navbar-right > li > a {
     border: 1px solid transparent;
 }
 header .navbar-right > li > a:hover,
-header .navbar-right > li.active > a {
+header .navbar-right > li.active > a,
+header .navbar-right > li.active > a:active,
+header .navbar-right > li.active > a:focus {
     background-color: transparent;
     color: #fff;
 }
