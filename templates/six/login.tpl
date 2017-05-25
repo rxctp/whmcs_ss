@@ -3,13 +3,7 @@
 <body>
 <article>
   <div class="container">
-    {if $incorrect}
-        {include file="$template/includes/alert.tpl" type="error" msg=$LANG.loginincorrect textcenter=true}
-    {elseif $verificationId && empty($transientDataName)}
-        {include file="$template/includes/alert.tpl" type="error" msg=$LANG.verificationKeyExpired textcenter=true}
-    {elseif $ssoredirect}
-        {include file="$template/includes/alert.tpl" type="info" msg=$LANG.sso.redirectafterlogin textcenter=true}
-    {/if}
+
     <div class="row">
       <div class="col-sm-12">
           <a href="index.html" class="content-title">影梭</a>
@@ -28,6 +22,13 @@
                   <input type="checkbox" name="rememberme" /> 自动登录
                 </label>
               </div>
+              {if $incorrect}
+                  {include file="$template/includes/alert.tpl" type="error" msg=$LANG.loginincorrect textcenter=true}
+              {elseif $verificationId && empty($transientDataName)}
+                  {include file="$template/includes/alert.tpl" type="error" msg=$LANG.verificationKeyExpired textcenter=true}
+              {elseif $ssoredirect}
+                  {include file="$template/includes/alert.tpl" type="info" msg=$LANG.sso.redirectafterlogin textcenter=true}
+              {/if}
               <div class="form-group">
                 <input type="submit" class="btn btn-success btn-block" value="登录">
               </div>
