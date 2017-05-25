@@ -18,13 +18,13 @@
               <a href="/">首页</a>
             </li>
             <li>
-              <a href="">客户端</a>
+              <a href="/client.html">客户端</a>
             </li>
             <li>
-              <a href="">使用教程</a>
+              <a href="/help.html">使用教程</a>
             </li>
             <li>
-              <a href="">服务条款</a>
+              <a href="/tos.html">服务条款</a>
             </li>
             <li>
               <a href="/clientarea.php">登录</a>
@@ -44,7 +44,7 @@
                 <h2>轻量级科学上网新姿势</h2>
                 <p>国内外智能分流，多平台架构，200M 独享带宽</p>
                 <p>365×24 小时网络不间断，改变您的生活体验！</p>
-                <a href="" class="btn btn-successful">立即体验</a>
+                <a href="/cart.php" class="btn btn-successful">立即体验</a>
             </div>
         </div>
     </div>
@@ -58,7 +58,7 @@
                   <img src="{$WEB_ROOT}/templates/static/img/icon-loadbalancers.svg" alt="">
                   <h3>优质线路</h3>
                   <p>精选全球CN2线路</p>
-                  <a href="">查看详情 <i class="fa fa-caret-right"></i></a>
+                  <a href="/cart.php">查看详情 <i class="fa fa-caret-right"></i></a>
               </div>
           </div>
           <div class="col-md-3 col-sm-6 text-center">
@@ -66,7 +66,7 @@
                   <img src="{$WEB_ROOT}/templates/static/img/icon-volumes.svg" alt="">
                   <h3>多平台支持</h3>
                   <p>几乎支持所有平台</p>
-                  <a href="">查看详情 <i class="fa fa-caret-right"></i></a>
+                  <a href="/cart.php">查看详情 <i class="fa fa-caret-right"></i></a>
               </div>
           </div>
           <div class="col-md-3 col-sm-6 text-center">
@@ -74,7 +74,7 @@
                   <img src="{$WEB_ROOT}/templates/static/img/icon-firewall.svg" alt="">
                   <h3>自动开通</h3>
                   <p>付款后立即自动开通</p>
-                  <a href="">查看详情 <i class="fa fa-caret-right"></i></a>
+                  <a href="/cart.php">查看详情 <i class="fa fa-caret-right"></i></a>
               </div>
           </div>
           <div class="col-md-3 col-sm-6 text-center">
@@ -82,7 +82,7 @@
                   <img src="{$WEB_ROOT}/templates/static/img/drive.svg" alt="">
                   <h3>自动开通</h3>
                   <p>7*24小时解决售后问题</p>
-                  <a href="">查看详情 <i class="fa fa-caret-right"></i></a>
+                  <a href="/cart.php">查看详情 <i class="fa fa-caret-right"></i></a>
               </div>
           </div>
       </div>
@@ -138,7 +138,7 @@
       <div class="row text-center">
           <div class="col-md-10 col-md-offset-1">
               <h2>影梭：致力于网络加速第一选择！</h2>
-              <a href="" class="btn btn-successful">立即体验</a>
+              <a href="/cart.php" class="btn btn-successful">立即体验</a>
           </div>
       </div>
   </div>
