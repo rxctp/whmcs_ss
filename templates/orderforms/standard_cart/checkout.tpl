@@ -204,7 +204,7 @@
 
 
 <section class="order" id="order-standard_cart">
-    <div class="row order-msg">
+    <div class="container order-msg">
       {include file="orderforms/standard_cart/sidebar-categories-collapsed.tpl"}
       <div class="already-registered clearfix">
           <div class="pull-right">
