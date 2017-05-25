@@ -24,7 +24,7 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     var csrfToken = '{$token}',
         markdownGuide = '{lang key="markdown.title"}',
         locale = '{if !empty($mdeLocale)}{$mdeLocale}{else}en{/if}',
@@ -35,4 +35,4 @@
 
 {if $templatefile == "viewticket" && !$loggedin}
   <meta name="robots" content="noindex" />
-{/if} -->
+{/if}
