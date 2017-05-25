@@ -73,7 +73,7 @@
                 {include file="$template/includes/panel.tpl" type="info" headerTitle=$LANG.success bodyContent=$LANG.invoiceofflinepaid bodyTextCenter=true}
             {/if}
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-6 pull-sm-right text-right-sm">
                     <strong>{$LANG.invoicespayto}:</strong>
                     <address class="small-text">
@@ -96,7 +96,7 @@
                         {/if}
                     </address>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div class="col-sm-6">
