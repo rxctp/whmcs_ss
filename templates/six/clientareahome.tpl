@@ -49,14 +49,14 @@
             </a>
         </div>
         <div class="col-sm-4 col-xs-6 tile" onclick="window.location='supporttickets.php'">
-            <a href="supporttickets.php">
+            <a class="type-item" href="supporttickets.php">
                 <div class="icon"><i class="fa fa-comments"></i></div>
                 <div class="title">{$LANG.navtickets} <span class="text-blue">{$clientsstats.numactivetickets}</span></div>
                 <div class="highlight bg-color-red"></div>
             </a>
         </div>
         <div class="col-sm-4 col-xs-6 tile" onclick="window.location='clientarea.php?action=invoices'">
-            <a href="clientarea.php?action=invoices">
+            <a class="type-item" href="clientarea.php?action=invoices">
                 <div class="icon"><i class="fa fa-credit-card"></i></div>
                 <div class="title">{$LANG.navinvoices} <span class="text-green">{$clientsstats.numunpaidinvoices}</span></div>
                 <div class="highlight bg-color-gold"></div>
@@ -64,21 +64,6 @@
         </div>
     </div>
 </div>
-
-<!-- <form role="form" method="post" action="clientarea.php?action=kbsearch">
-    <div class="row">
-        <div class="col-md-12 home-kb-search">
-            <input type="text" name="search" class="form-control input-lg" placeholder="{$LANG.clientHomeSearchKb}" />
-            <i class="fa fa-search"></i>
-        </div>
-    </div>
-</form> -->
-
-<!-- {foreach from=$addons_html item=addon_html}
-    <div>
-        {$addon_html}
-    </div>
-{/foreach} -->
 
 <div class="client-home-panels container">
     <div class="row">
@@ -141,12 +126,12 @@
 
         </div>
         <div class="col-sm-6">
-
+<!--
             {foreach $panels as $item}
                 {if $item@iteration is even}
                     {outputHomePanels}
                 {/if}
-            {/foreach}
+            {/foreach} -->
 
         </div>
     </div>
