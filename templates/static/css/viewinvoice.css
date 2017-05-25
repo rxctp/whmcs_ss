@@ -3,6 +3,29 @@ body {
   font-family: "proxima-nova", Verdana, Tahoma, sans-serif;
   background-color: #ECEFF4;
 }
+.row {
+  margin: 0;
+}
+.panel-default,
+.panel-heading,
+ {
+  border: none;
+}
+.table>tbody>tr>td {
+  border: none;
+  line-height: 24px;
+}
+.invoice-container td.total-row {
+  background-color: #fff;
+}
+.select-inline {
+  width: 190px;
+}
+h2.apply-type {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
 .invoice-container {
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0,0,0,.05);
@@ -16,6 +39,7 @@ body {
   background-color: #F4F5F9;
   padding: 45px;
   border-radius: 6px 6px 0 0;
+  margin-bottom: 40px;
 }
 .invoice-container .header .title h1 {
   color: #131313;

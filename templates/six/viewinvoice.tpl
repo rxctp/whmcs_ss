@@ -97,7 +97,7 @@
 
             <div class="row order-content">
                 <div class="col-sm-6">
-                    <strong>{$LANG.paymentmethod}:</strong><br>
+                    <h2 class="apply-type">{$LANG.paymentmethod}:</h2><br>
                     <span class="small-text">
                         {if $status eq "Unpaid" && $allowchangegateway}
                             <form method="post" action="{$smarty.server.PHP_SELF}?id={$invoiceid}" class="form-inline">
