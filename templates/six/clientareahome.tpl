@@ -128,9 +128,7 @@
         <div class="col-sm-6">
 
             {foreach $panels as $item}
-              <h1>{$item}</h1>
                 {if $item@iteration is even}
-
                     {outputHomePanels}
                 {/if}
             {/foreach}
