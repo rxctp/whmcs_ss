@@ -185,7 +185,7 @@ var _localLang = {
       <input type="hidden" name="configure" value="true" />
       <input type="hidden" name="i" value="{$i}" />
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-8 order-msg">
             <div class="od-head">
               <h1>配置</h1>
             </div>

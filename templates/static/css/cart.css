@@ -38,7 +38,7 @@
     }
 
     .order {
-        padding: 80px 0 !important;
+        padding: 20px 0 !important;
         background-color: #fff;
     }
 
@@ -256,6 +256,10 @@
 }
 #order-standard_cart .summary-container {
   background-color: transparent;
+}
+.order-msg {
+  padding: 20px;
+  box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.28);
 }
 .order-box {
   padding: 20px;
