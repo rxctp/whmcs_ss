@@ -3,59 +3,59 @@
         border-bottom: 1px solid #F1F3F3;
         background-color: #F2F3F5;
     }
-    
+
     .size-md {
         width: 40px;
         height: 40px;
         display: block;
         margin: 0 auto 10px;
     }
-    
+
     .i-menu p {
         color: #939DAB;
         font-weight: 600;
         text-decoration: none;
     }
-    
+
     .i-menu .col-sm-3:not(:last-child) {
         border-right: 1px solid #D7E0E0;
     }
-    
+
     .i-menu a {
         text-decoration: none;
     }
-    
+
     .i-menu svg.theme-gray path {
         fill: #939DAB;
     }
-    
+
     .i-menu .active svg.theme-gray path {
         fill: #43B0DB;
     }
-    
+
     .i-menu .active p {
         color: #3B4655;
     }
-    
+
     .order {
         padding: 80px 0;
         background-color: #fff;
     }
-    
+
     .order-header {
         margin-bottom: 30px;
     }
-    
+
     .order-header h2 {
         color: #32607A;
         font-weight: 400;
         margin-top: 10px;
     }
-    
+
     .order-header p {
         letter-spacing: 1px;
     }
-    
+
     .order-cart {
         padding: 1px 0 10px 0;
         margin: 0 0 20px 0;
@@ -65,7 +65,7 @@
         border: 1px solid #ddd;
         overflow: hidden;
     }
-    
+
     .order-head {
         position: relative;
         padding: 10px 20px;
@@ -75,48 +75,47 @@
         color: black;
         font-size: 1.2em;
     }
-    
+
     .order-desc {
         float: left;
-        width: 60%;
-        padding: 30px 14px 0 14px;
-        font-size: 13px;
+        width: 65%;
+        padding: 0 14px;
+        font-size: 12px;
     }
-    
+
     .order-desc ul {
         padding: 0;
         margin: 0;
     }
-    
+
     .order-desc ul li {
-        margin-bottom: 20px;
         list-style: none;
     }
-    
+
     span.green {
-        color: rgb(0, 128, 0);
+        color: rgb(0, 162, 0);
     }
-    
+
     .order-price {
         float: right;
         margin: 20px 0;
-        width: 40%;
+        width: 35%;
         font-size: 0.8em;
         text-align: center;
         background-color: transparent;
     }
-    
+
     .order-price p {}
-    
+
     .order-price .order-price-sp {
         font-size: 1.4em;
     }
     /*od*/
-    
+
     .od-head {
         margin-bottom: 30px;
     }
-    
+
     .od-head h1 {
         margin-top: 0;
         margin-bottom: 15px;
@@ -127,13 +126,13 @@
         color: #181818;
         border-bottom: 0;
     }
-    
+
     .od-content {
         border-radius: 4px;
         border: 2px solid #EAF0F0;
         margin-bottom: 20px;
     }
-    
+
     .od-content .od-header {
         margin: 0;
         padding: 8px 15px;
@@ -141,31 +140,31 @@
         font-size: 16px;
         border-radius: 4px 4px 0 0;
     }
-    
+
     .od-content .od-items {
         margin-bottom: 20px;
         border-bottom: 1px solid #EAF0F0;
     }
-    
+
     .od-content .od-empty {
         padding: 30px 15px;
         text-align: center;
     }
-    
+
     .od-ticket .nav-tabs {
         padding-left: 20px;
         font-size: 0.8em;
     }
-    
+
     .od-ticket .nav-tabs li a {
         background-color: #f8f8f8;
     }
-    
+
     .od-ticket .tab-content {
         background-color: #f8f8f8;
         padding: 15px;
     }
-    
+
     .prepend-icon {
         top: 0;
         left: 0;
@@ -175,7 +174,7 @@
         width: 100%;
         font-weight: normal;
     }
-    
+
     .field {
         position: relative;
         vertical-align: top;
@@ -190,7 +189,7 @@
         border-radius: 3px;
         font-size: 13px;
     }
-    
+
     .field-icon {
         top: 0;
         z-index: 4;
@@ -208,14 +207,14 @@
         pointer-events: none;
         padding-left: 0;
     }
-    
+
     .od-sum {
         margin: 0;
         padding: 0;
         min-height: 100px;
         font-size: 0.8em;
     }
-    
+
     .od-total {
         padding: 20px 0;
         margin-bottom: 20px;
@@ -223,19 +222,19 @@
         font-size: 1.2em;
         margin: 20px;
     }
-    
+
     .od-total-p {
         text-align: right;
         font-size: 20px;
         color: #43B0DB;
     }
-    
+
     .check-btn {
         margin-top: 30px;
         padding-top: 30px;
         border-top: 1px solid #E6ECEC;
     }
-    
+
     .btn-check {
         padding: 10px 30px;
         font-size: 18px;
