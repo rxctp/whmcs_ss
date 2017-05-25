@@ -1,3 +1,6 @@
+<!-- SEO -->
+<meta name="keywords" content="影梭,shadowsocks,ss,天行,天行VPN官网,天行VPN,天行加速器,VPN">
+<meta name="description" content="影梭提供美国VPN,日本VPN,香港VPN,影梭官网支持手机VPN,MAC VPN">
 <!-- JQuery -->
 <script type="text/javascript" src="{$WEB_ROOT}/templates/static/js/jquery-2.1.1.js"></script>
 
