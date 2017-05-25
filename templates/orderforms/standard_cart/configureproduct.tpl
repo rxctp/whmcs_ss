@@ -186,6 +186,9 @@ var _localLang = {
       <input type="hidden" name="i" value="{$i}" />
         <div class="row">
           <div class="col-md-8">
+            <div class="od-head">
+              <h1>配置</h1>
+            </div>
             <p>{$LANG.orderForm.configureDesiredOptions}</p>
 
             <div class="product-info">

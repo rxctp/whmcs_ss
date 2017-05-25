@@ -38,7 +38,7 @@
     }
 
     .order {
-        padding: 80px 0;
+        padding: 80px 0 !important;
         background-color: #fff;
     }
 
@@ -240,3 +240,17 @@
         line-height: 1.3333333;
         border-radius: 50px;
     }
+/* 订单 覆盖样式 */
+#order-standard_cart .order-summary {
+  border: none;
+  background-color: transparent;
+}
+#order-standard_cart .order-summary h2 {
+  color: #181818;
+  border-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 6px 0;
+  font-weight: 400;
+  font-size: 28px;
+}
