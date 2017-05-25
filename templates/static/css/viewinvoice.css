@@ -7,8 +7,7 @@ body {
   margin: 0;
 }
 .panel-default,
-.panel-heading,
- {
+.panel-heading {
   border: none;
 }
 .table>tbody>tr>td {
