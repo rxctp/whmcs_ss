@@ -1,8 +1,14 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="{$charset}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{$companyname} - {$pagetitle}</title>
 
     <link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css" rel="stylesheet">
     <link href="{$WEB_ROOT}/templates/{$template}/css/invoice.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/viewinvoice.css">
 </head>
 <body>
 
@@ -14,11 +20,11 @@
 
         {else}
 
-            <div class="row">
+            <div class="row header">
                 <div class="col-sm-7">
 
                     {if $logo}
-                        <p><img src="{$logo}" title="{$companyname}" /></p>
+                        <p>影梭</p>
                     {else}
                         <h2>{$companyname}</h2>
                     {/if}
@@ -241,3 +247,6 @@
     </div>
 
     <p class="text-center hidden-print"><a href="clientarea.php">{$LANG.invoicesbacktoclientarea}</a></a></p>
+
+</body>
+</html>
