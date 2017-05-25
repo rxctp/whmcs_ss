@@ -300,7 +300,7 @@
                   </div>
               </div>
 
-              <div class="sub-heading">
+              <div class="sub-heading hide">
                   <span>{$LANG.orderForm.billingAddress}</span>
               </div>
 
@@ -355,7 +355,7 @@
                           <label for="inputPostcode" class="field-icon">
                               <i class="fa fa-certificate"></i>
                           </label>
-                          <input type="text" name="postcode" id="inputPostcode" class="field" placeholder="{$LANG.orderForm.postcode}" value="缺省" {if $loggedin} readonly="readonly"{/if}>
+                          <input type="text" name="postcode" id="inputPostcode" class="field" placeholder="{$LANG.orderForm.postcode}" value="000000" {if $loggedin} readonly="readonly"{/if}>
                           <!-- {$clientsdetails.postcode} -->
                       </div>
                   </div>
