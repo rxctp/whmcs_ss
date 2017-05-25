@@ -9,6 +9,7 @@
     <link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css" rel="stylesheet">
     <link href="{$WEB_ROOT}/templates/{$template}/css/invoice.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/viewinvoice.css">
+    <link rel="shortcut icon" href="favicon.png">
 </head>
 <body>
 
