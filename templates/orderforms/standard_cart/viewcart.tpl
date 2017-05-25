@@ -104,7 +104,7 @@
       </div>
       <div class="col-sm-3">
         <a href="javascript:;">
-          <div class="card">
+          <div class="card active">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="theme-gray size-md">
                 <g>
                   <g>
@@ -148,7 +148,7 @@
       </div>
       <div class="col-sm-3">
         <a href="javascript:;">
-          <div class="card active">
+          <div class="card">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="theme-gray size-md">
               <g>
                 <g>
@@ -546,8 +546,8 @@
             </div>
 
         </div>
-        <div class="col-md-4" id="scrollingPanelContainer">
-          <div class="order-summary order-box" id="orderSummary">
+        <div class="col-md-4 order-box" id="scrollingPanelContainer">
+          <div class="order-summary" id="orderSummary">
             <div class="loader" id="orderSummaryLoader" style="display: none;">
                 <i class="fa fa-fw fa-refresh fa-spin"></i>
             </div>
