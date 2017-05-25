@@ -546,8 +546,8 @@
             </div>
 
         </div>
-        <div class="col-md-4 order-box" id="scrollingPanelContainer">
-          <div class="order-summary" id="orderSummary">
+        <div class="col-md-4" id="scrollingPanelContainer">
+          <div class="order-summary order-box" id="orderSummary">
             <div class="loader" id="orderSummaryLoader" style="display: none;">
                 <i class="fa fa-fw fa-refresh fa-spin"></i>
             </div>
