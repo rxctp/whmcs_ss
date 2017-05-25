@@ -21,18 +21,13 @@
         {else}
 
             <div class="row header">
-                <div class="col-sm-7">
+                <div class="col-sm-7 title">
 
                     {if $logo}
-                        <p>影梭</p>
+                        <h1>影梭</h1>
                     {else}
                         <h2>{$companyname}</h2>
                     {/if}
-                    <h3>{$pagetitle}</h3>
-
-                </div>
-                <div class="col-sm-5 text-center">
-
                     <div class="invoice-status">
                         {if $status eq "Draft"}
                             <span class="draft">{$LANG.invoicesdraft}</span>
@@ -49,6 +44,10 @@
                         {/if}
                     </div>
 
+
+                </div>
+                <div class="col-sm-5 text-center">
+                    <h3>{$pagetitle}</h3>
                     {if $status eq "Unpaid" || $status eq "Draft"}
                         <div class="small-text">
                             {$LANG.invoicesdatedue}: {$datedue}
@@ -60,8 +59,6 @@
 
                 </div>
             </div>
-
-            <hr>
 
             {if $paymentSuccess}
                 {include file="$template/includes/panel.tpl" type="success" headerTitle=$LANG.success bodyContent=$LANG.invoicepaymentsuccessconfirmation bodyTextCenter=true}
@@ -98,7 +95,7 @@
                 </div>
             </div> -->
 
-            <div class="row">
+            <div class="row order-content">
                 <div class="col-sm-6">
                     <strong>{$LANG.paymentmethod}:</strong><br>
                     <span class="small-text">
@@ -237,10 +234,10 @@
                 </div>
             </div>
 
-            <div class="pull-right btn-group btn-group-sm hidden-print">
+            <!-- <div class="pull-right btn-group btn-group-sm hidden-print">
                 <a href="javascript:window.print()" class="btn btn-default"><i class="fa fa-print"></i> {$LANG.print}</a>
                 <a href="dl.php?type=i&amp;id={$invoiceid}" class="btn btn-default"><i class="fa fa-download"></i> {$LANG.invoicesdownload}</a>
-            </div>
+            </div> -->
 
         {/if}
 

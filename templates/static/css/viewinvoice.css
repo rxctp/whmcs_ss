@@ -10,9 +10,19 @@ body {
   margin-bottom: 20px;
   border: none;
   margin-top: 70px;
+  padding: 0;
 }
 .invoice-container .header {
   background-color: #F4F5F9;
   padding: 45px;
   border-radius: 6px 6px 0 0;
+}
+.invoice-container .header .title h1 {
+  color: #131313;
+  margin-top: 0;
+  font-weight: 300;
+  font-family: Raleway, sans-serif;
+}
+.invoice-container .order-content {
+  padding: 0 45px;
 }
