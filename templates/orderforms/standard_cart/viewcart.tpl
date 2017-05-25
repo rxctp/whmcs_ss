@@ -13,7 +13,6 @@
     <script type="text/javascript" src="{$BASE_PATH_JS}/StatesDropdown.js"></script>
 
     <div id="order-standard_cart">
-1111
         <div class="row">
 
             <div class="pull-md-right col-md-9">
