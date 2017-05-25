@@ -304,13 +304,14 @@
                   <span>{$LANG.orderForm.billingAddress}</span>
               </div>
 
-              <div class="row">
+              <div class="row hide">
                   <div class="col-sm-12">
                       <div class="form-group prepend-icon">
                           <label for="inputCompanyName" class="field-icon">
                               <i class="fa fa-building"></i>
                           </label>
-                          <input type="text" name="companyname" id="inputCompanyName" class="field" placeholder="{$LANG.orderForm.companyName} ({$LANG.orderForm.optional})" value="{$clientsdetails.companyname}"{if $loggedin} readonly="readonly"{/if}>
+                          <input type="text" name="companyname" id="inputCompanyName" class="field" placeholder="{$LANG.orderForm.companyName} ({$LANG.orderForm.optional})" value="缺省" {if $loggedin} readonly="readonly"{/if}>
+                          <!-- {$clientsdetails.companyname} -->
                       </div>
                   </div>
                   <div class="col-sm-12">
@@ -318,7 +319,8 @@
                           <label for="inputAddress1" class="field-icon">
                               <i class="fa fa-building-o"></i>
                           </label>
-                          <input type="text" name="address1" id="inputAddress1" class="field" placeholder="{$LANG.orderForm.streetAddress}" value="{$clientsdetails.address1}"{if $loggedin} readonly="readonly"{/if}>
+                          <input type="text" name="address1" id="inputAddress1" class="field" placeholder="{$LANG.orderForm.streetAddress}" value="缺省" {if $loggedin} readonly="readonly"{/if}>
+                          <!-- {$clientsdetails.address1} -->
                       </div>
                   </div>
                   <div class="col-sm-12">
@@ -326,7 +328,8 @@
                           <label for="inputAddress2" class="field-icon">
                               <i class="fa fa-map-marker"></i>
                           </label>
-                          <input type="text" name="address2" id="inputAddress2" class="field" placeholder="{$LANG.orderForm.streetAddress2}" value="{$clientsdetails.address2}"{if $loggedin} readonly="readonly"{/if}>
+                          <input type="text" name="address2" id="inputAddress2" class="field" placeholder="{$LANG.orderForm.streetAddress2}" value="缺省" {if $loggedin} readonly="readonly"{/if}>
+                          <!-- {$clientsdetails.address2} -->
                       </div>
                   </div>
                   <div class="col-sm-4">
@@ -334,7 +337,8 @@
                           <label for="inputCity" class="field-icon">
                               <i class="fa fa-building-o"></i>
                           </label>
-                          <input type="text" name="city" id="inputCity" class="field" placeholder="{$LANG.orderForm.city}" value="{$clientsdetails.city}"{if $loggedin} readonly="readonly"{/if}>
+                          <input type="text" name="city" id="inputCity" class="field" placeholder="{$LANG.orderForm.city}" value="缺省" {if $loggedin} readonly="readonly"{/if}>
+                          <!-- {$clientsdetails.city} -->
                       </div>
                   </div>
                   <div class="col-sm-5">
@@ -342,7 +346,8 @@
                           <label for="inputState" class="field-icon" id="inputStateIcon">
                               <i class="fa fa-map-signs"></i>
                           </label>
-                          <input type="text" name="state" id="inputState" class="field" placeholder="{$LANG.orderForm.state}" value="{$clientsdetails.state}"{if $loggedin} readonly="readonly"{/if}>
+                          <input type="text" name="state" id="inputState" class="field" placeholder="{$LANG.orderForm.state}" value="缺省" {if $loggedin} readonly="readonly"{/if}>
+                          <!-- {$clientsdetails.state} -->
                       </div>
                   </div>
                   <div class="col-sm-3">
@@ -350,7 +355,8 @@
                           <label for="inputPostcode" class="field-icon">
                               <i class="fa fa-certificate"></i>
                           </label>
-                          <input type="text" name="postcode" id="inputPostcode" class="field" placeholder="{$LANG.orderForm.postcode}" value="{$clientsdetails.postcode}"{if $loggedin} readonly="readonly"{/if}>
+                          <input type="text" name="postcode" id="inputPostcode" class="field" placeholder="{$LANG.orderForm.postcode}" value="缺省" {if $loggedin} readonly="readonly"{/if}>
+                          <!-- {$clientsdetails.postcode} -->
                       </div>
                   </div>
                   <div class="col-sm-12">

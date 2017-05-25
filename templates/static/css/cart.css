@@ -269,3 +269,6 @@
   padding: 20px;
   box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.28);
 }
+.hide {
+  display: none;
+}
