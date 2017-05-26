@@ -1,6 +1,6 @@
 
 <div class="logincontainer">
-
+  <h1>asdasdasdadadasdsd</h1>
     {include file="$template/includes/pageheader.tpl" title=$LANG.pwreset}
 
     {if $loggedin}
