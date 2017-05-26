@@ -47,18 +47,15 @@ article {
 }
 
 .content .foot {
-    padding: 20px;
+    padding: 10px;
     border-top: 1px solid #E7E9EC;
-    background-color: #F8FAFC;
     border-radius: 0 0 4px 4px;
 }
 
 .content .foot a {
     color: #7f8ea3;
     display: block;
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 1;
+    font-size: 12px;
     text-decoration: none;
 }
 
