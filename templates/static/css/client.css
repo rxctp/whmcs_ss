@@ -18,9 +18,7 @@
   font-size: 26px;
   margin-left: 10px;
 }
-.text-center h3 {
-  margin-top: 0;
-}
+
 .tiles {
   padding: 20px 0 10px;
   text-align: center;
@@ -29,16 +27,5 @@
   padding: 20px 20px 60px;
 }
 .panel-accent-emerald {
-  display: none;
-}
-.PDB2C_moban1_buy_size3 {
-  margin-top: 10px;
-}
-.PDB2C_moban1_cat_size3,
-[title="加入购物车"] {
-  display: none;
-}
-.PDB2C_moban1_btn,
-.PDB2C_fixed-top {
   display: none;
 }

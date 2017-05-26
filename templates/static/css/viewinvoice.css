@@ -49,3 +49,17 @@ h2.apply-type {
 .invoice-container .order-content {
   padding: 0 45px;
 }
+.text-center h3 {
+  margin-top: 0;
+}
+.PDB2C_moban1_buy_size3 {
+  margin-top: 10px;
+}
+.PDB2C_moban1_cat_size3,
+[title="加入购物车"] {
+  display: none;
+}
+.PDB2C_moban1_btn,
+.PDB2C_fixed-top {
+  display: none;
+}
