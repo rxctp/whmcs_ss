@@ -1,4 +1,4 @@
-<div class="logincontainer">
+<div class="logincontainer   aaaaaaa">
 
     {include file="$template/includes/pageheader.tpl" title=$LANG.logouttitle}
 
