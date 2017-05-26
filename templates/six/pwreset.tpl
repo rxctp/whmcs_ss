@@ -1,6 +1,5 @@
 
 <div class="logincontainer">
-  <h1>asdasdasdadadasdsd</h1>
     {include file="$template/includes/pageheader.tpl" title=$LANG.pwreset}
 
     {if $loggedin}
@@ -21,7 +20,8 @@
             {if $securityquestion}
 
                 <p>{$LANG.pwresetsecurityquestionrequired}</p>
-
+                <h1>asdasdasdadadasdsd</h1>
+                
                 <form method="post" action="pwreset.php"  class="form-stacked">
                     <input type="hidden" name="action" value="reset" />
                     <input type="hidden" name="email" value="{$email}" />
