@@ -2,6 +2,11 @@
 <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/{$template}/css/style.css">
 
 <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/index.css">
+<style>
+  .container {
+    padding-top: 10px;
+  }
+</style>
 </head>
 <body>
 <header>
@@ -74,7 +79,7 @@
     </script>
 
 
-    <div class="row row-main">
+    <!-- <div class="row row-main">
       <div class="col-md-8">
         <div class="card">
           <h4>产品信息</h4>
@@ -182,7 +187,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="row row-main">
       <div class="col-md-8">
@@ -228,7 +233,7 @@
                     <i class="fa fa-lock"></i> VPN连接密码
                   </th>
                   <td>
-                    <a class="passwd">123456</a>
+                    <a class="passwd">{$password}</a>
                   </td>
                 </tr>
               </tbody>

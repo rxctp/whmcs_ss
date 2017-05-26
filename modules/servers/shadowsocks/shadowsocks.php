@@ -410,6 +410,7 @@ function shadowsocks_ClientArea($params){
       'times' => $times,
       'port' => $query_data['port'],
       'node_list' => $node_list,
+      'password' => $password
     ),
   );
   return $result;
@@ -420,4 +421,3 @@ function shadowsocks_AdminCustomButtonArray(){
     '重置' => 'reset'
   );
 }
-
