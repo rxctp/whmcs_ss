@@ -1,5 +1,5 @@
 
-<div class="logincontainer">
+<div class="logincontainer aaaa">
 
     {include file="$template/includes/pageheader.tpl" title=$LANG.pwreset}
 
