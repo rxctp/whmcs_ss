@@ -36,7 +36,7 @@
 </header>
 <!-- news -->
 
-<div class="logincontainer">
+<div class="logincontainer container">
     {include file="$template/includes/pageheader.tpl" title=$LANG.pwreset}
 
     {if $loggedin}
