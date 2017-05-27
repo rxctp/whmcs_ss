@@ -4,7 +4,7 @@ body {
 
 .container {
     width: 100%;
-    margin: 110px 0;
+    margin: 55px 0 0;
     padding: 20px 10px 0;
 }
 
@@ -14,6 +14,7 @@ article {
 }
 
 .content-title {
+    font-weight: 300;
     text-align: center;
     line-height: 42px;
     color: #FFF;
@@ -21,9 +22,8 @@ article {
     height: auto;
     display: block;
     padding: 5px 0;
-    margin-bottom: 40px;
-    font-size: 34px;
-    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 44px;
     font-family: Raleway, Verdana, Tahoma, sans-serif;
 }
 

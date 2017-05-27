@@ -6,7 +6,7 @@
 
     <div class="row">
       <div class="col-sm-12">
-          <a href="index.html" class="content-title">影梭</a>
+          <h1 class="content-title">影梭</h1>
           <div class="content">
             <form action="{$systemsslurl}dologin.php" role="form">
               <div class="form-group form-group-top">
