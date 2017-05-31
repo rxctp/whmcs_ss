@@ -26,7 +26,7 @@
 
         {if !$registrationDisabled}
 
-            <form method="post" class="using-password-strength" action="{$smarty.server.PHP_SELF}" role="form">
+            <form method="post" class="using-password-strength pwreset" action="{$smarty.server.PHP_SELF}" role="form">
                 <input type="hidden" name="register" value="true"/>
 
                 <div class="row">
