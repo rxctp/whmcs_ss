@@ -56,7 +56,7 @@
         </nav>
     </div>
   </header>
-  <div class="container">
+  <div class="container main-content">
     <div class="announcement-single">
 
         <h2>
