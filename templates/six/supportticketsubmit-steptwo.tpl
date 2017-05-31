@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/six/css/all.css">
 <style>
-.container {
+.container.main-content {
   padding: 50px 0;
 }
 </style>
@@ -41,7 +41,7 @@
         </nav>
     </div>
   </header>
-  <div class="container">
+  <div class="container main-content">
 
 {if $errormessage}
     {include file="$template/includes/alert.tpl" type="error" errorshtml=$errormessage}

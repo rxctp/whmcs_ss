@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/six/css/all.css">
 <style>
-.container {
+.container.main-content {
   padding: 50px 0;
 }
 </style>
