@@ -1,4 +1,9 @@
 <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/six/css/all.css">
+<style>
+.container {
+  padding: 50px 0;
+}
+</style>
 </head>
 <body>
   <header>
