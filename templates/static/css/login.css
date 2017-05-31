@@ -84,3 +84,10 @@ article {
     background-color: #2FB130;
     background-image: linear-gradient(#2FB130,#2BAF2D);
 }
+.header-lined h1 {
+  font-size: 18px;
+  margin-top: 0;
+}
+form.pwreset{
+  padding-bottom: 5px;
+}

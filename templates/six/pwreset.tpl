@@ -30,7 +30,7 @@
                     <p>{$LANG.pwresetsecurityquestionrequired}</p>
 
 
-                    <form method="post" action="pwreset.php"  class="form-stacked">
+                    <form method="post" action="pwreset.php"  class="form-stacked pwreset">
                         <input type="hidden" name="action" value="reset" />
                         <input type="hidden" name="email" value="{$email}" />
 
@@ -49,7 +49,7 @@
 
                     <p>{$LANG.pwresetemailneeded}</p>
 
-                    <form method="post" action="{$systemsslurl}pwreset.php" role="form">
+                    <form method="post" class="pwreset" action="{$systemsslurl}pwreset.php" role="form">
                         <input type="hidden" name="action" value="reset" />
 
                         <div class="form-group">
