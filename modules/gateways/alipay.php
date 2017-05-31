@@ -81,7 +81,7 @@ function alipay_link($params) {
 	$webpay = new alipay_service($webpay,$gatewaySECURITY_CODE,$sign_type);
 	$webpaylink=$webpay->create_url();
 	$code = '<div class="alipay" style="max-width: 230px;margin: 0 auto">';
-	$subject = 	"$companyname 账单 $invoiceid";
+	$subject = 	"$companyname 账单 {$invoiceid-6}";
     $code =  <<<EOF
 <div id="pdBuy" class="PDB2C_moban_warp" dataP="$subject" dataR="$amount"><img src="http://code.jiasale.com/pdbs/images/init_wait.gif"></div>
 <script type="text/javascript" id="pdB2C_js"></script>
