@@ -172,7 +172,7 @@
                 {/if}
 
                 <p align="center">
-                    <input class="btn btn-large btn-primary" type="submit" value="{$LANG.clientregistertitle}"/>
+                    <button class="btn btn-large btn-primary" type="submit">{$LANG.clientregistertitle}</button>
                 </p>
 
             </form>
