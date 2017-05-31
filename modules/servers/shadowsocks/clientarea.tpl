@@ -313,8 +313,8 @@
         <div class="card">
           <h4>流量报表</h4>
           <div class="content">
-            <div class="text-muted">总流量：{$traffic} MB / 月</div>
-            <p>剩余流量： {$traffic_free}  MB</p>
+            <div class="text-muted">不限制流量</div>
+            <p>已经使用流量： {abs($traffic_free)}  MB</p>
             <div class="progress progress-striped progress-sm">
                 <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
                     <span class="sr-only">0% Complete</span>
