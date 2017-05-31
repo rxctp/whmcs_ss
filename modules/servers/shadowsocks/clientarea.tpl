@@ -208,7 +208,7 @@
                     <i class="fa fa-key"></i> 加密方式
                   </th>
                   <td>
-                    rc4-md5
+                    AES-256-CFB
                   </td>
                 </tr>
                 <tr>
