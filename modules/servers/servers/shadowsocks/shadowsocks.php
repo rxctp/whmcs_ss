@@ -381,7 +381,7 @@ function shadowsocks_ClientArea($params){
         {$cname}
       </td>
       <td style=\"padding:10px 15px;border-right:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;text-transform:uppercase\">
-        {$method}
+      AES-256-CFB
       </td>
       <td style=\"padding:10px 15px;border-bottom:1px solid #e9e9e9\">
         <a name=\"qrcode\" data-title=\"{$name}\" data-qrcode=\"{$ssqrcode}\" href=\"javascript:;\" style=\"color:#00afd1;text-decoration:none\">查看二维码图片</a>
