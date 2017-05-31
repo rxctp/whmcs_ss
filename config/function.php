@@ -62,6 +62,7 @@ function shadowsocks_create($pid,$passwd,$traffic){
             'result' => 'Account already exists.'
           );
         }else{
+          $traffic = 512;
           $traffic = $traffic * 1048576; //按照 GB 为流量单位
           $create = $mysql->exec("INSERT INTO user(pid,passwd,port,transfer_enable) VALUES ('".$pid."','".$passwd."','".$port."','".$traffic."')");
   if(!$create){
