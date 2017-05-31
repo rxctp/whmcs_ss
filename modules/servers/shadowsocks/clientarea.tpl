@@ -3,8 +3,8 @@
 
 <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/index.css">
 <style>
-  .container {
-    padding-top: 10px;
+  .container.main-content {
+    padding: 10px 0 30px;
   }
 </style>
 <body>
@@ -44,7 +44,7 @@
 </div>
 </header>
 
-<div class="container">
+<div class="container main-content">
   <div class="alert alert-warning" role="alert" style="margin-bottom: 10px;">
       <p>将我们优质的服务介绍给您身边的朋友，您还可以立即获得高达 20% 的现金返还，<a href="/affiliates.php">立即加入推介计划</a></p>
   </div>
