@@ -1,5 +1,5 @@
 <!-- SEO -->
-<meta name="keywords" content="影梭,shadowsocks,ss,天行,天行VPN官网,天行VPN,天行加速器,VPN">
+<meta name="keywords" content="影梭,影梭官网,shadowsocks,ss,ssr,SSR,VPN,科学上网">
 <meta name="description" content="影梭提供美国VPN,日本VPN,香港VPN,影梭官网支持手机VPN,MAC VPN">
 <!-- JQuery -->
 <script type="text/javascript" src="{$WEB_ROOT}/templates/static/js/jquery-2.1.1.js"></script>
@@ -23,6 +23,16 @@
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+<!-- 百度统计 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6951179f677f4d5051c02b36171cbf7b";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 <script type="text/javascript">
     var csrfToken = '{$token}',
