@@ -24,6 +24,9 @@ var _localLang = {
               <a href="/">首页</a>
             </li>
             <li>
+              <a href="/cart.php">套餐价格</a>
+            </li>
+            <li>
               <a href="/client.html">客户端</a>
             </li>
             <li>
