@@ -90,8 +90,8 @@ function shadowsocks_create($pid,$passwd,$traffic){
       'pid'=>$pid,
       'password'=>$passwd
   ];
- $uri = 'http://104.197.233.113/shadowsocksapi.php';
-  curlPost($uri,$data);
+ //$uri = 'http://104.197.233.113/shadowsocksapi.php';
+  //curlPost($uri,$data);
    
   return $result;
 }
