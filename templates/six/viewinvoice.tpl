@@ -20,8 +20,16 @@
         font-size: 12px;
         margin: 0;
       }
+      .alipay .amount{
+        font-size: 26px;
+        font-weight: 700;
+        color: #f60;
+      }
       .alipay .alipay-code {
         position: relative;
+        background: #fff;
+        border: 1px solid #d3d3d3;
+        padding: 6px;
       }
       .alipay .alipay-code .amount-img {
         width: 100%;
@@ -40,10 +48,11 @@
       .alipay .alipay-code .tips .scan {
         position: absolute;
         left: 20px;
+        top: 12px;
       }
       .alipay .alipay-code .tips p {
         font-size: 12px;
-        margin-bottom: 5px;
+        margin-bottom: 0;
       }
     </style>
 </head>
@@ -58,7 +67,8 @@
         {else}
 
             <div class="row header">
-                <div class="col-sm-7 title">
+                <div class="col-sm-5 title">
+                    <h1>{$pagetitle}</h1>
                     {if $logo}
                         <h1>影梭</h1>
                     {else}
@@ -82,12 +92,9 @@
 
 
                 </div>
-                <div class="col-sm-5 text-center">
-                    <h3>{$pagetitle}</h3>
+                <div class="col-sm-7 text-center">
                     {if $status eq "Unpaid" || $status eq "Draft"}
-                        <div class="small-text">
-                            {$LANG.invoicesdatedue}: {$datedue}
-                        </div>
+
                         <div class="payment-btn-container" align="center">
                           <div class="alipay">
                             <p class="title">扫一扫付款（元）</p>
@@ -161,6 +168,10 @@
                     <strong>{$LANG.invoicesdatecreated}:</strong><br>
                     <span class="small-text">
                         {$date}<br><br>
+                    </span><br>
+                    <strong>{$LANG.invoicesdatedue}:</strong><br>
+                    <span class="small-text">
+                        {$datedue}<br><br>
                     </span>
                 </div>
             </div>
