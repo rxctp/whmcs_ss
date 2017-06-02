@@ -55,7 +55,7 @@
                             {$LANG.invoicesdatedue}: {$datedue}
                         </div>
                         <div class="payment-btn-container" align="center">
-                          
+                            {$paymentbutton}
                         </div>
                     {/if}
 

@@ -85,11 +85,16 @@ function alipay_link($params) {
 
 // $amount
 
-
+  $code = '<div class="alipay">' +
+  '<p class="title">扫一扫付款（元）</p>' +
+  '<p class="amount">18.00</p>' +
+  '<div class="alipay-code">' +
+    '<img class="amount-img" src="/assets/img/alipay/18.jpg" />' +
+    '<img class="intro-img" src="/assets/img/alipay/intro.png" />' +
+    '<div class="tips"><img class="scan" src="/assets/img/alipay/scan.png" /> <p>打开手机支付宝</p><p>扫一扫继续付款</p></div>' + 
+  '</div></div>'
 	if (stristr($_SERVER['PHP_SELF'], 'viewinvoice')) {
 		return $code;
-	} else {
-		return '<img style="width: 150px" src="'.$systemurl.'/modules/gateways/alipay/alipay.png" alt="支付宝支付" />';
 	}
 }
 
