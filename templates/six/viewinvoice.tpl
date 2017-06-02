@@ -209,7 +209,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            <?php var_dump($invoiceitems);?>
+                   
                                 {foreach from=$invoiceitems item=item}
                                     <tr>
                                         <td>{$item.description}{if $item.taxed eq "true"} *{/if}</td>
