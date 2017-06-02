@@ -55,7 +55,19 @@
                             {$LANG.invoicesdatedue}: {$datedue}
                         </div>
                         <div class="payment-btn-container" align="center">
-                            {$code}
+                          <div class="alipay">
+                            <p class="title">扫一扫付款（元）</p>
+                            <p class="amount">{$balance}</p>
+                            <div class="alipay-code">
+                              <img class="amount-img" src="/assets/img/alipay/18.jpg" />
+                              <img class="intro-img" src="/assets/img/alipay/intro.png" />
+                              <div class="tips">
+                                <img class="scan" src="/assets/img/alipay/scan.png" />
+                                <p>打开手机支付宝</p>
+                                <p>扫一扫继续付款</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                     {/if}
 

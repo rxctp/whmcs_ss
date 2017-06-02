@@ -93,6 +93,7 @@ function alipay_link($params) {
     '<img class="intro-img" src="/assets/img/alipay/intro.png" />' +
     '<div class="tips"><img class="scan" src="/assets/img/alipay/scan.png" /> <p>打开手机支付宝</p><p>扫一扫继续付款</p></div>' +
   '</div></div>';
+  
 	if (stristr($_SERVER['PHP_SELF'], 'viewinvoice')) {
 		return $code;
 	}
