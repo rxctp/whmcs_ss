@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="favicon.png">
     <style>
       .tips {
-        padding: 20px 0;
+        padding-top: 10px;
       }
       .tips .promise {
         margin-top: 10px;
@@ -98,11 +98,7 @@
                             <span class="collections">{$LANG.invoicescollections}</span>
                         {/if}
                     </div>
-                    <div class="tips">
-                      <p>付款完成后，请点击：</p>
-                      <a class="btn btn-success" target="_blank" href="/submitticket.php">提交工单</a>
-                      <p class="promise">工单提交后，我们将在10分钟内为你开通服务</p>
-                    </div>
+
 
                 </div>
                 <div class="col-sm-7 text-center">
@@ -121,6 +117,10 @@
                                 <p>扫一扫继续付款</p>
                               </div>
                             </div>
+                          </div>
+                          <div class="tips">
+                            <span>付款完成后，请点击：</span>
+                            <a class="btn btn-success" target="_blank" href="/submitticket.php">提交工单</a>
                           </div>
                         </div>
                     {/if}
