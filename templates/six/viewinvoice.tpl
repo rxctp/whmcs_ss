@@ -4,6 +4,7 @@
     <meta charset="{$charset}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>{$companyname} - {$pagetitle}</title>
 
     <link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css" rel="stylesheet">
