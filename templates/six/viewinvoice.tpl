@@ -24,7 +24,7 @@
 
             <div class="row header">
                 <div class="col-sm-7 title">
-
+<?php var_dump($webpay);exit;?>
                     {if $logo}
                         <h1>影梭</h1>
                     {else}
