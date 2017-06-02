@@ -14,6 +14,7 @@
     <style>
       .alipay {
         width: 182px;
+        margin-left: 210px;
       }
       .alipay .title {
         text-align: center;
@@ -34,12 +35,13 @@
       .alipay .alipay-code .amount-img {
         width: 100%;
       }
-      .alipay .alipay-code .intro-img {
+      /*.alipay .alipay-code .intro-img {
+        display: none;
         width: 204px;
         position: absolute;
         top: -40px;
         left: 182px;
-      }
+      }*/
       .alipay .alipay-code .tips {
         position: relative;
         padding-left: 40px;
@@ -68,12 +70,12 @@
 
             <div class="row header">
                 <div class="col-sm-5 title">
-                    <h1>{$pagetitle}</h1>
                     {if $logo}
                         <h1>影梭</h1>
                     {else}
                         <h2>{$companyname}</h2>
                     {/if}
+                    <h1>{$pagetitle}</h1>
                     <div class="invoice-status">
                         {if $status eq "Draft"}
                             <span class="draft">{$LANG.invoicesdraft}</span>
@@ -101,7 +103,7 @@
                             <p class="amount">{$balance}</p>
                             <div class="alipay-code">
                               <img class="amount-img" src="/assets/img/alipay/18.jpg" />
-                              <img class="intro-img" src="/assets/img/alipay/intro.png" />
+                              <!-- <img class="intro-img" src="/assets/img/alipay/intro.png" /> -->
                               <div class="tips">
                                 <img class="scan" src="/assets/img/alipay/scan.png" />
                                 <p>打开手机支付宝</p>
@@ -220,7 +222,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                   
+
                                 {foreach from=$invoiceitems item=item}
                                     <tr>
                                         <td>{$item.description}{if $item.taxed eq "true"} *{/if}</td>
