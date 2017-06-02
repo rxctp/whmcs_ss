@@ -86,7 +86,7 @@ function alipay_link($params) {
     $code =  <<<EOF
 <div id="pdBuy" class="PDB2C_moban_warp" dataP="$subject" dataR="$amount"><img src="http://code.jiasale.com/pdbs/images/init_wait.gif"></div>
 <script type="text/javascript" id="pdB2C_js"></script>
-<script type="text/javascript" id="pdB2C_shell_js" src="http://code.jiasale.com/shoptemplet/e885761f5cd845b6a95d43c936ef2af4/t38021.js"></script>
+<script type="text/javascript" id="pdB2C_shell_js" src="//code.jiasale.com/shoptemplet/e885761f5cd845b6a95d43c936ef2af4/t38021.js"></script>
 EOF;
 
 	if (stristr($_SERVER['PHP_SELF'], 'viewinvoice')) {
