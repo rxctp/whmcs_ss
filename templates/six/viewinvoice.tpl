@@ -12,6 +12,13 @@
     <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/viewinvoice.css">
     <link rel="shortcut icon" href="favicon.png">
     <style>
+      .tips {
+        padding: 20px 0;
+      }
+      .tips .promise {
+        margin-top: 10px;
+        font-size: 12px;
+      }
       .alipay {
         width: 182px;
         margin-left: 210px;
@@ -92,8 +99,8 @@
                         {/if}
                     </div>
                     <div class="tips">
-                      <p>付款完成后，请提交工单</p>
-                      <a href="/submitticket.php">点此提交工单</a>
+                      <p>付款完成后，请点击：</p>
+                      <a class="btn btn-success" target="_blank" href="/submitticket.php">提交工单</a>
                       <p class="promise">工单提交后，我们将在10分钟内为你开通服务</p>
                     </div>
 
