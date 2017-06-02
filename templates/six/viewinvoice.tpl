@@ -112,7 +112,17 @@
                             <p class="title">扫一扫付款（元）</p>
                             <p class="amount">{$balance}</p>
                             <div class="alipay-code">
+                            {if $balance eq "¥18.00 CNY"}
                               <img class="amount-img" src="/assets/img/alipay/18.jpg" />
+                            {elseif $balance eq "¥48.00 CNY"}
+                              <img class="amount-img" src="/assets/img/alipay/48.jpg" />
+                            {elseif $balance eq "¥128.00 CNY"}
+                              <img class="amount-img" src="/assets/img/alipay/128.jpg" />
+                            {elseif $balance eq "¥188.00 CNY"}
+                              <img class="amount-img" src="/assets/img/alipay/188.jpg" />
+                            {elseif $balance}
+                              <img class="amount-img" src="/assets/img/alipay/default.jpg" />
+                            {/if}
                               <!-- <img class="intro-img" src="/assets/img/alipay/intro.png" /> -->
                               <div class="tips">
                                 <img class="scan" src="/assets/img/alipay/scan.png" />
@@ -124,7 +134,7 @@
                           <div class="success-tips">
                             <span>付款完成后，请点击：</span>
                             <a target="_blank" href="/submitticket.php">提交工单</a>
-                            <p>以便系统更快的为您开通账户</p>
+                            <p>以便系统更快的为您开通服务</p>
                           </div>
                         </div>
                     {/if}

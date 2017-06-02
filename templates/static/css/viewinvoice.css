@@ -36,7 +36,7 @@ h2.apply-type {
 }
 .invoice-container .header {
   background-color: #F4F5F9;
-  padding: 45px;
+  padding: 45px 45px 16px;
   border-radius: 6px 6px 0 0;
   margin-bottom: 40px;
 }
