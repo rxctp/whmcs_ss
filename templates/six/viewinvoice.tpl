@@ -11,6 +11,41 @@
     <link href="{$WEB_ROOT}/templates/{$template}/css/invoice.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/viewinvoice.css">
     <link rel="shortcut icon" href="favicon.png">
+    <style>
+      .alipay {
+        width: 182px;
+      }
+      .alipay .title {
+        text-align: center;
+        font-size: 12px;
+        margin: 0;
+      }
+      .alipay .alipay-code {
+        position: relative;
+      }
+      .alipay .alipay-code .amount-img {
+        width: 100%;
+      }
+      .alipay .alipay-code .intro-img {
+        width: 204px;
+        position: absolute;
+        top: -40px;
+        left: 182px;
+      }
+      .alipay .alipay-code .tips {
+        position: relative;
+        padding-left: 40px;
+        padding-top: 10px;
+      }
+      .alipay .alipay-code .tips .scan {
+        position: absolute;
+        left: 20px;
+      }
+      .alipay .alipay-code .tips p {
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+    </style>
 </head>
 <body>
 
