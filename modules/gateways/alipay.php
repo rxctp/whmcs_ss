@@ -82,34 +82,9 @@ function alipay_link($params) {
 	$webpaylink=$webpay->create_url();
 	$invoiceid = $invoiceid;
 	$subject = 	"$companyname 账单 $invoiceid";
-<<<<<<< HEAD
 
 // $amount
-=======
-    $code =  <<<EOF
-<div id="pdBuy" class="PDB2C_moban_warp" dataP="$subject" dataR="$amount"><img src="http://code.jiasale.com/pdbs/images/init_wait.gif"></div>
-<script type="text/javascript" id="pdB2C_js"></script>
-<script type="text/javascript" id="pdB2C_shell_js">
-var pdB2C38021 = {
-						"cnValue" : "orange",
-						"unValue" : "ypCzzPRBYZZpJWFAFUIYfwdengdeng",
-						"pnValue" : "",
-						"prValue" : "0",
-						"codePos" : "bottom",
-                        "sURL":"http://code.jiasale.com/shoptemplet/e885761f5cd845b6a95d43c936ef2af4/s12788.js", 
-					    "stValue":"true", 
-					    "v_sId":"http://code.jiasale.com",		
-						"teID":"FSZUOUFCO8Ideng",
-						"codeId":"WOJ6uC6Qf4wdeng",
-					    "cartType":"multi",			
-	                    "is_specs":"0",
-						"specs_name":"",
-						"isProm":"-1"
-					};
-					document.getElementById("pdB2C_js").src ="http://code.jiasale.com/pdbs/b2cjs/pdBuyPos.js";
-</script>
-EOF;
->>>>>>> 0e272af4437de05514ad5b5559f0705f0da86605
+
 
 	if (stristr($_SERVER['PHP_SELF'], 'viewinvoice')) {
 		return $code;
