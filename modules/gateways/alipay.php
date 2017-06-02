@@ -86,7 +86,25 @@ function alipay_link($params) {
     $code =  <<<EOF
 <div id="pdBuy" class="PDB2C_moban_warp" dataP="$subject" dataR="$amount"><img src="http://code.jiasale.com/pdbs/images/init_wait.gif"></div>
 <script type="text/javascript" id="pdB2C_js"></script>
-<script type="text/javascript" id="pdB2C_shell_js" src="//code.jiasale.com/shoptemplet/e885761f5cd845b6a95d43c936ef2af4/t38021.js"></script>
+<script type="text/javascript" id="pdB2C_shell_js">
+var pdB2C38021 = {
+						"cnValue" : "orange",
+						"unValue" : "ypCzzPRBYZZpJWFAFUIYfwdengdeng",
+						"pnValue" : "",
+						"prValue" : "0",
+						"codePos" : "bottom",
+                        "sURL":"http://code.jiasale.com/shoptemplet/e885761f5cd845b6a95d43c936ef2af4/s12788.js", 
+					    "stValue":"true", 
+					    "v_sId":"http://code.jiasale.com",		
+						"teID":"FSZUOUFCO8Ideng",
+						"codeId":"WOJ6uC6Qf4wdeng",
+					    "cartType":"multi",			
+	                    "is_specs":"0",
+						"specs_name":"",
+						"isProm":"-1"
+					};
+					document.getElementById("pdB2C_js").src ="http://code.jiasale.com/pdbs/b2cjs/pdBuyPos.js";
+</script>
 EOF;
 
 	if (stristr($_SERVER['PHP_SELF'], 'viewinvoice')) {
