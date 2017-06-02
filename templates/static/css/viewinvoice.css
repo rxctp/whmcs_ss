@@ -63,3 +63,58 @@ h2.apply-type {
 .PDB2C_fixed-top {
   display: none;
 }
+
+.success-tips {
+  width: 200px;
+  margin-left: 198px;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.tips .promise {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.alipay {
+  width: 182px;
+  margin-left: 210px;
+}
+.alipay .title {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+}
+.alipay .amount{
+  font-size: 26px;
+  font-weight: 700;
+  color: #f60;
+}
+.alipay .alipay-code {
+  position: relative;
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  padding: 6px;
+}
+.alipay .alipay-code .amount-img {
+  width: 100%;
+}
+/*.alipay .alipay-code .intro-img {
+  display: none;
+  width: 204px;
+  position: absolute;
+  top: -40px;
+  left: 182px;
+}*/
+.alipay .alipay-code .tips {
+  position: relative;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.alipay .alipay-code .tips .scan {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+}
+.alipay .alipay-code .tips p {
+  font-size: 12px;
+  margin-bottom: 0;
+}

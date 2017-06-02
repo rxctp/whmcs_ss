@@ -12,7 +12,9 @@
     <link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/static/css/viewinvoice.css">
     <link rel="shortcut icon" href="favicon.png">
     <style>
-      .tips {
+      .success-tips {
+        width: 200px;
+        margin-left: 198px;
         font-size: 12px;
         padding-top: 10px;
       }
@@ -119,7 +121,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="tips">
+                          <div class="success-tips">
                             <span>付款完成后，请点击：</span>
                             <a target="_blank" href="/submitticket.php">提交工单</a>
                           </div>
