@@ -23,7 +23,7 @@ function alipay_link($params) {
 	$_input_charset  = "utf-8";   //字符编码格式 目前支持 GBK 或 utf-8
 	$sign_type       = "MD5";     //加密方式 系统默认(不要修改)
 	$transport       = $params['transport'];   //访问模式,你可以根据自己的服务器是否支持ssl访问而选择http以及https访问模式(系统默认,不要修改)
-	
+
 	# Gateway Specific Variables
 	$gatewayPID = $params['partnerID'];
 	$gatewaySELLER_EMAIL = $params['seller_email'];
@@ -81,13 +81,9 @@ function alipay_link($params) {
 	$webpay = new alipay_service($webpay,$gatewaySECURITY_CODE,$sign_type);
 	$webpaylink=$webpay->create_url();
 	$invoiceid = $invoiceid;
-	$code = '<div class="alipay" style="max-width: 230px;margin: 0 auto">';
 	$subject = 	"$companyname 账单 $invoiceid";
-    $code =  <<<EOF
-<div id="pdBuy" class="PDB2C_moban_warp" dataP="$subject" dataR="$amount"><img src="http://code.jiasale.com/pdbs/images/init_wait.gif"></div>
-<script type="text/javascript" id="pdB2C_js"></script>
-<script type="text/javascript" id="pdB2C_shell_js" src="http://code.jiasale.com/shoptemplet/e885761f5cd845b6a95d43c936ef2af4/t38021.js"></script>
-EOF;
+
+// $amount
 
 	if (stristr($_SERVER['PHP_SELF'], 'viewinvoice')) {
 		return $code;
