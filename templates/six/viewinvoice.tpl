@@ -91,7 +91,11 @@
                             <span class="collections">{$LANG.invoicescollections}</span>
                         {/if}
                     </div>
-
+                    <div class="tips">
+                      <p>付款完成后，请提交工单</p>
+                      <a href="/submitticket.php">点此提交工单</a>
+                      <p class="promise">工单提交后，我们将在10分钟内为你开通服务</p>
+                    </div>
 
                 </div>
                 <div class="col-sm-7 text-center">
