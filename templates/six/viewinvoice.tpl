@@ -220,6 +220,7 @@
                                 </tr>
                             </thead>
                             <tbody>
+                   
                                 {foreach from=$invoiceitems item=item}
                                     <tr>
                                         <td>{$item.description}{if $item.taxed eq "true"} *{/if}</td>
