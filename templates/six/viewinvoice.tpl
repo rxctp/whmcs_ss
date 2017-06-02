@@ -59,7 +59,6 @@
 
             <div class="row header">
                 <div class="col-sm-7 title">
-
                     {if $logo}
                         <h1>影梭</h1>
                     {else}
