@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="favicon.png">
     <style>
       .tips {
+        font-size: 12px;
         padding-top: 10px;
       }
       .tips .promise {
@@ -120,7 +121,7 @@
                           </div>
                           <div class="tips">
                             <span>付款完成后，请点击：</span>
-                            <a class="btn btn-success" target="_blank" href="/submitticket.php">提交工单</a>
+                            <a target="_blank" href="/submitticket.php">提交工单</a>
                           </div>
                         </div>
                     {/if}
