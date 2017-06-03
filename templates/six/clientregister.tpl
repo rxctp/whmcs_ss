@@ -32,7 +32,10 @@
                 <div class="row">
 
                     <div class="col-md-12">
-
+                      <div class="form-group">
+                          <label for="firstname" class="control-label">用户名</label>
+                          <input type="text" name="firstname" id="firstname" value="" class="form-control" {if !in_array('firstname', $optionalFields)}required{/if} />
+                      </div>
                         <div class="form-group">
                             <label for="phonenumber" class="control-label">{$LANG.clientareaphonenumber}</label>
                             <input type="tel" name="phonenumber" id="phonenumber" value="{$clientphonenumber}" class="form-control" {if !in_array('phonenumber', $optionalFields)}required{/if} />
@@ -84,10 +87,10 @@
                           <input type="text" name="firstname" id="firstname" value="缺省" class="form-control" {if !in_array('firstname', $optionalFields)}required{/if} />
                       </div>
 
-                      <div class="form-group hide">
+                      <!-- <div class="form-group hide">
                           <label for="lastname" class="control-label">{$LANG.clientarealastname}</label>
                           <input type="text" name="lastname" id="lastname" value="缺省" class="form-control" {if !in_array('lastname', $optionalFields)}required{/if} />
-                      </div>
+                      </div> -->
 
                       <div class="form-group hide">
                           <label for="companyname" class="control-label">{$LANG.clientareacompanyname}</label>
