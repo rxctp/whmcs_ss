@@ -1,3 +1,50 @@
+<link rel="stylesheet" type="text/css" href="{$WEB_ROOT}/templates/six/css/all.css">
+<style>
+.container.main-content {
+  padding: 50px 0;
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="">影梭</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <nav class="navbar-collapse collapse" id="bs-navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="/">首页</a>
+              </li>
+              <li>
+                <a href="/cart.php">套餐价格</a>
+              </li>
+              <li>
+                <a href="/client.html">客户端</a>
+              </li>
+              <li>
+                <a href="/help.html">使用教程</a>
+              </li>
+              <li>
+                <a href="/tos.html">服务条款</a>
+              </li>
+              <li>
+                <a href="/clientarea.php">登录</a>
+              </li>
+              <li>
+                <a href="/register.php" class="btn btn-outline btn-border">注册</a>
+              </li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+<div class="container main-content">
 {if $invalidTicketId}
 
     {include file="$template/includes/alert.tpl" type="danger" title=$LANG.thereisaproblem msg=$LANG.supportticketinvalid textcenter=true}
@@ -159,3 +206,4 @@
     {/foreach}
 
 {/if}
+</div>
