@@ -132,9 +132,8 @@
                             </div>
                           </div>
                           <div class="success-tips">
-                            <span>付款完成后，请点击：</span>
+                            <span>如遇问题，请点击：</span>
                             <a target="_blank" href="/submitticket.php">提交工单</a>
-                            <p>以便系统更快的为您开通服务</p>
                           </div>
                         </div>
                     {/if}
