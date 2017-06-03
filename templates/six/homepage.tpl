@@ -44,9 +44,9 @@
     <div class="container">
         <div class="row i-content">
             <div class="col-md-5">
-                <h2>轻量级科学上网新姿势</h2>
-                <p>国内外智能分流，多平台架构，200M 独享带宽</p>
-                <p>365×24 小时网络不间断，改变您的生活体验！</p>
+                <h2>科学上网新姿势</h2>
+                <p>国内外智能分流，多平台架构，千兆带宽</p>
+                <p>365×24 小时网络不间断，给您最佳上网体验！</p>
                 <a href="/cart.php" class="btn btn-successful">立即体验</a>
             </div>
         </div>
