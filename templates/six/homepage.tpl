@@ -46,7 +46,7 @@
             <div class="col-md-5">
                 <h2>科学上网新姿势</h2>
                 <p>国内外智能分流，多平台架构，千兆带宽</p>
-                <p>365×24 小时网络不间断，给您最佳上网体验！</p>
+                <p>年中大促，包月套餐低至<span class="text-danger hot">9.9元/月</span></p>
                 <a href="/cart.php" class="btn btn-successful">立即体验</a>
             </div>
         </div>
