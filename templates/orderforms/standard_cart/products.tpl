@@ -1,3 +1,19 @@
+<style>
+  .order .col-md-6.active .order-cart {
+    background-color: #f7feff;
+    box-shadow: 0 0 10px rgba(4, 192, 220, 0.69);
+  }
+  .order-cart {
+    height: 380px;
+  }
+  .order-head {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
 {include file="orderforms/standard_cart/common.tpl"}
 <header>
   <div class="container">
