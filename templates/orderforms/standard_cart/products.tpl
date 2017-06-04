@@ -183,7 +183,7 @@
         </div>
       </div>
       {foreach $products as $product}
-      <div class="col-md-6">
+      <div class="col-md-6 {if $product.name eq 'a-促销版限时活动'} active {/if}">
         <div class="order-cart">
           <div class="order-head">
             <span>{$product.name}</span>
