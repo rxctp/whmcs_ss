@@ -1,6 +1,14 @@
 body {
         font-family: Raleway, Verdana, Tahoma, sans-serif;
 }
+.hot {
+  font-size: 50px;
+  color: #ffe600;
+  margin-left: 14px;
+}
+.no-margin {
+  margin: 0;
+}
 header {
     background: linear-gradient(to right, #1c99cf 0%, #5bbee2 100%);
 }
