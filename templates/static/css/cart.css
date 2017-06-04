@@ -57,6 +57,9 @@
     }
 
     .order-cart {
+      position: relative;
+      height: 380px;
+
         padding: 1px 0 10px 0;
         margin: 0 0 20px 0;
         background: #fff;
@@ -64,15 +67,18 @@
         border: 1px solid #ddd;
         overflow: hidden;
     }
-
+    .order .col-md-6.active .order-cart {
+      background-color: #f7feff;
+      box-shadow: 0 0 10px rgba(4, 192, 220, 0.69);
+    }
     .order-head {
         position: relative;
         padding: 10px 20px;
         margin: 0 1px;
-        background: #f8f8f8;
         border-radius: 3px 3px 0 0;
         color: black;
-        font-size: 1.2em;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .order-desc {
