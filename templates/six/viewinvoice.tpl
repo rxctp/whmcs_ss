@@ -114,8 +114,12 @@
                             <div class="alipay-code">
                             {if $balance eq "¥18.00 CNY"}
                               <img class="amount-img" src="/assets/img/alipay/18.jpg" />
+                            {elseif $balance eq "¥9.90 CNY"}
+                              <img class="amount-img" src="/assets/img/alipay/9.9.jpg" />
                             {elseif $balance eq "¥48.00 CNY"}
                               <img class="amount-img" src="/assets/img/alipay/48.jpg" />
+                            {elseif $balance eq "¥88.00 CNY"}
+                              <img class="amount-img" src="/assets/img/alipay/88.jpg" />
                             {elseif $balance eq "¥128.00 CNY"}
                               <img class="amount-img" src="/assets/img/alipay/128.jpg" />
                             {elseif $balance eq "¥188.00 CNY"}
