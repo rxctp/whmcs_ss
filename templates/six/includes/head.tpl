@@ -1,5 +1,5 @@
 <!-- SEO -->
-<meta name="keywords" content="影梭,影梭官网,shadowsocks,ss,ssr,SSR,VPN,科学上网,shadowsocks客户端,影梭使用教程,影梭账号,shadowsocks下载">
+<meta name="keywords" content="影梭,ss,影梭官网,影梭vpn,vpn,科学上网,影梭使用教程,影梭账号">
 <meta name="description" content="影梭提供美国VPN,日本VPN,香港VPN,影梭官网支持手机VPN,MAC VPN,致力于满足广大网友尽早实现科学上网。">
 <script>
 (function(){
