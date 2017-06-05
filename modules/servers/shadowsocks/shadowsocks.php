@@ -65,7 +65,7 @@ function shadowsocks_CreateAccount($params){
     'traffic' => $traffic
   );
   $curl_create = curl_init();
-  curl_setopt($curl_create, CURLOPT_URL, "http://".$serverip.':'.$port.'/shadowsocksapi.php');
+  curl_setopt($curl_create, CURLOPT_URL, "https://".$serverip.':'.$port.'/shadowsocksapi.php');
   curl_setopt($curl_create, CURLOPT_POST, 1);
   curl_setopt($curl_create, CURLOPT_TIMEOUT, 20);
   curl_setopt($curl_create, CURLOPT_FRESH_CONNECT, 1);
@@ -102,7 +102,7 @@ function shadowsocks_SuspendAccount($params){
     'pid' => $pid
   );
   $curl_suspend = curl_init();
-  curl_setopt($curl_suspend, CURLOPT_URL, "http://".$serverip.':'.$port.'/shadowsocksapi.php');
+  curl_setopt($curl_suspend, CURLOPT_URL, "https://".$serverip.':'.$port.'/shadowsocksapi.php');
   curl_setopt($curl_suspend, CURLOPT_POST, 1);
   curl_setopt($curl_suspend, CURLOPT_TIMEOUT, 20);
   curl_setopt($curl_suspend, CURLOPT_FRESH_CONNECT, 1);
@@ -149,7 +149,7 @@ function shadowsocks_UnsuspendAccount($params){
     'password' => $password,
   );
   $curl_unspend = curl_init();
-  curl_setopt($curl_unspend, CURLOPT_URL, "http://".$serverip.':'.$port.'/shadowsocksapi.php');
+  curl_setopt($curl_unspend, CURLOPT_URL, "https://".$serverip.':'.$port.'/shadowsocksapi.php');
   curl_setopt($curl_unspend, CURLOPT_POST, 1);
   curl_setopt($curl_unspend, CURLOPT_TIMEOUT, 20);
   curl_setopt($curl_unspend, CURLOPT_FRESH_CONNECT, 1);
@@ -181,7 +181,7 @@ function shadowsocks_TerminateAccount($params){
     'pid' => $pid
   );
   $curl_terminate = curl_init();
-  curl_setopt($curl_terminate, CURLOPT_URL, "http://".$serverip.':'.$port.'/shadowsocksapi.php');
+  curl_setopt($curl_terminate, CURLOPT_URL, "https://".$serverip.':'.$port.'/shadowsocksapi.php');
   curl_setopt($curl_terminate, CURLOPT_POST, 1);
   curl_setopt($curl_terminate, CURLOPT_TIMEOUT, 20);
   curl_setopt($curl_terminate, CURLOPT_FRESH_CONNECT, 1);
@@ -222,7 +222,7 @@ function shadowsocks_ChangePackage($params){
     'traffic' => $traffic
   );
   $curl_changepackage = curl_init();
-  curl_setopt($curl_changepackage, CURLOPT_URL, "http://".$serverip.':'.$port.'/shadowsocksapi.php');
+  curl_setopt($curl_changepackage, CURLOPT_URL, "https://".$serverip.':'.$port.'/shadowsocksapi.php');
   curl_setopt($curl_changepackage, CURLOPT_POST, 1);
   curl_setopt($curl_changepackage, CURLOPT_TIMEOUT, 20);
   curl_setopt($curl_changepackage, CURLOPT_FRESH_CONNECT, 1);
@@ -256,7 +256,7 @@ function shadowsocks_ChangePassword($params){
     'password' => $password,
   );
   $curl_changepassword = curl_init();
-  curl_setopt($curl_changepassword, CURLOPT_URL, "http://".$serverip.':'.$port.'/shadowsocksapi.php');
+  curl_setopt($curl_changepassword, CURLOPT_URL, "https://".$serverip.':'.$port.'/shadowsocksapi.php');
   curl_setopt($curl_changepassword, CURLOPT_POST, 1);
   curl_setopt($curl_changepassword, CURLOPT_TIMEOUT, 20);
   curl_setopt($curl_changepassword, CURLOPT_FRESH_CONNECT, 1);
@@ -288,7 +288,7 @@ function shadowsocks_reset($params){
     'pid' => $pid
   );
   $curl_reset = curl_init();
-  curl_setopt($curl_reset, CURLOPT_URL, "http://".$serverip.':'.$port.'/shadowsocksapi.php');
+  curl_setopt($curl_reset, CURLOPT_URL, "https://".$serverip.':'.$port.'/shadowsocksapi.php');
   curl_setopt($curl_reset, CURLOPT_POST, 1);
   curl_setopt($curl_reset, CURLOPT_TIMEOUT, 20);
   curl_setopt($curl_reset, CURLOPT_FRESH_CONNECT, 1);
@@ -322,7 +322,7 @@ function shadowsocks_ClientArea($params){
     'pid' => $pid
   );
   $curl_query = curl_init();
-  curl_setopt($curl_query, CURLOPT_URL, "http://".$serverip.':'.$port.'/shadowsocksapi.php');
+  curl_setopt($curl_query, CURLOPT_URL, "https://".$serverip.':'.$port.'/shadowsocksapi.php');
   curl_setopt($curl_query, CURLOPT_POST, 1);
   curl_setopt($curl_query, CURLOPT_TIMEOUT, 20);
   curl_setopt($curl_query, CURLOPT_FRESH_CONNECT, 1);
