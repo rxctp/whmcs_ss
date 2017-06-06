@@ -1,6 +1,8 @@
 <!-- SEO -->
-<meta name="keywords" content="影梭,ss,影梭官网,影梭vpn,vpn,科学上网,影梭使用教程,影梭账号">
+<meta name="author" content="影梭">
+<meta name="keywords" content="影梭,SS,VPN,科学上网,影梭官网,SS,影梭账号,SS账号,影梭使用教程,影梭下载">
 <meta name="description" content="影梭提供美国VPN,日本VPN,香港VPN,影梭官网支持手机VPN,MAC VPN,致力于满足广大网友尽早实现科学上网。">
+<meta name="Copyright" content="影梭版权所有">
 <script>
 (function(){
     var bp = document.createElement('script');
